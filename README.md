@@ -13,6 +13,8 @@ The intent for this repository is to contain a variety of simple examples that h
 
 ## MNIST RIS
 
-Summary: [ADD SUMMARY]
+The directory "mnist_ris" contains resources to train a Pytorch Ligtning model with MNIST dataset in the RIS Compute Environment using a single GPU.
+
+Inside the directory there is a script file "ris_mnist.py" and a README file that has detailed instructions on how to run the script. 
 
 Author: Aayush Dhakal
