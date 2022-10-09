@@ -58,4 +58,10 @@ bhosts: view all hosts
 
 bhosts -gpu -w [queue]: view all gpu hosts in a queue #for some reason only works with general-interactive
 
+## Running MNIST on RIS with a multiple GPU
 
+The procedure to run a script in multi GPU mode is almost the same as stated above with an exception that now you need to request for 2 or more GPUs in the `bsub` command. This is done using the `num` argument as follows
+
+```bsub -q general -J mnist_ris -R "select[gpuhost] rusage[mem=32000] span[hosts=1]" -oo $ACTIVE/[path_to_output_file] -gpu "num=2" -a 'docker(adhakal2/mvrl:pl)' python3 mnist_multi_gpu.py```
+
+Additionally, the pytorch lightning script needs some modications for multi gpu training and the changes are present in the script `mnist_multi_gpu.py`.

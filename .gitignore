@@ -130,3 +130,6 @@ dmypy.json
 
 ./mnist_standalone/data/
 ./mnist_standalone/lightning_logs/
+
+# Mac
+.DS_Store
