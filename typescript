@@ -1,0 +1,1354 @@
+Script started on 2023-03-22 16:31:25-05:00
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls /storage1/jacobsn/[K[3Pbhosts -w
+HOST_NAME          STATUS          JL/U    MAX  NJOBS    RUN  SSUSP  USUSP    RSV 
+a100-2207.engr.wustl.edu ok              -     48      5      5      0      0      0
+a40-2205.engr.wustl.edu ok              -     48      1      1      0      0      0
+a40-2206.engr.wustl.edu ok              -     48      0      0      0      0      0
+aiml-srvr.engr.wustl.edu ok              -     12      0      0      0      0      0
+airlab.engr.wustl.edu ok              -     20      0      0      0      0      0
+amd128-2201.engr.wustl.edu closed_Full     -    128    128    128      0      0      0
+amd128-2202.engr.wustl.edu closed_Full     -    128    128    128      0      0      0
+amd128-2203.engr.wustl.edu ok              -    128     96     96      0      0      0
+amd128-2204.engr.wustl.edu closed_Full     -    128    128    128      0      0      0
+cassini.seas.wustl.edu ok              -     48      0      0      0      0      0
+chenguang01.engr.wustl.edu ok              -    128      0      0      0      0      0
+chenguang02.engr.wustl.edu ok              -    128      0      0      0      0      0
+chernobyl.engr.wustl.edu ok              -     12      1      1      0      0      0
+cigserver1.engr.wustl.edu ok              -     32      6      6      0      0      0
+cigserver2.engr.wustl.edu ok              -     16      0      0      0      0      0
+gnode01.engr.wustl.edu ok              -     32      0      0      0      0      0
+gnode02.engr.wustl.edu ok              -     32      0      0      0      0      0
+gnode03.engr.wustl.edu ok              -     32      2      2      0      0      0
+gnode04.engr.wustl.edu ok              -     20      1      1      0      0      0
+gnode05.engr.wustl.edu ok              -     16      4      4      0      0      0
+gnode06.engr.wustl.edu unavail         -      1      0      0      0      0      0
+gnode07.engr.wustl.edu ok              -     16      1      1      0      0      0
+gnode08.engr.wustl.edu ok              -     16      3      3      0      0      0
+gnode09.engr.wustl.edu ok              -     16      2      2      0      0      0
+gnode10.engr.wustl.edu ok              -     16      4      4      0      0      0
+gnode11.engr.wustl.edu ok              -     16      3      3      0      0      0
+hondius.seas.wustl.edu ok              -     40      0      0      0      0      0
+ingenii.seas.wustl.edu ok              -      4      0      0      0      0      0
+inode01.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode02.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode03.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode04.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode05.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode06.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode07.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode08.engr.wustl.edu unavail         -      1      0      0      0      0      0
+inode09.engr.wustl.edu ok              -     16      0      0      0      0      0
+inode10.engr.wustl.edu unavail         -      1      0      0      0      0      0
+inode11.engr.wustl.edu unavail         -      1      0      0      0      0      0
+inode12.engr.wustl.edu unavail         -      1      0      0      0      0      0
+inode13.engr.wustl.edu ok              -     20      0      0      0      0      0
+inode14.engr.wustl.edu closed_Adm      -     20      0      0      0      0      0
+inode15.engr.wustl.edu ok              -     20      0      0      0      0      0
+inode16.engr.wustl.edu ok              -     20      0      0      0      0      0
+inode17.engr.wustl.edu ok              -     20      0      0      0      0      0
+inode18.engr.wustl.edu ok              -     20      0      0      0      0      0
+inode19.engr.wustl.edu unavail         -      1      0      0      0      0      0
+inode20.engr.wustl.edu ok              -     20      0      0      0      0      0
+inode21.engr.wustl.edu closed_Full     -     20     20     20      0      0      0
+kumquat.engr.wustl.edu ok              -     36      4      4      0      0      0
+linuxlab001.engr.wustl.edu unavail         -      1      0      0      0      0      0
+linuxlab002.engr.wustl.edu ok              -     32      8      8      0      0      0
+linuxlab003.engr.wustl.edu unavail         -      1      0      0      0      0      0
+linuxlab004.engr.wustl.edu ok              -     32      2      2      0      0      0
+linuxlab005.engr.wustl.edu ok              -     32      1      1      0      0      0
+linuxlab006.engr.wustl.edu ok              -     32      3      3      0      0      0
+linuxlab007.engr.wustl.edu ok              -     32      6      6      0      0      0
+linuxlab008.engr.wustl.edu ok              -     32      4      4      0      0      0
+linuxlab009.engr.wustl.edu ok              -     32      2      2      0      0      0
+linuxlab010.engr.wustl.edu unavail         -      1      0      0      0      0      0
+linuxlab011.engr.wustl.edu closed_Adm      -      1      0      0      0      0      0
+longinquus.engr.wustl.edu unavail         -      1      0      0      0      0      0
+lotus.engr.wustl.edu ok              -     32      0      0      0      0      0
+mangosteen.engr.wustl.edu ok              -     36      8      8      0      0      0
+node0.seas.wustl.edu unavail         -      1      0      0      0      0      0
+node01.engr.wustl.edu ok              -     36     31     31      0      0      0
+node02.engr.wustl.edu ok              -     36     34     34      0      0      0
+node03.engr.wustl.edu ok              -     36     20     20      0      0      0
+node04.engr.wustl.edu ok              -     36     24     24      0      0      0
+node05.engr.wustl.edu ok              -     36     26     26      0      0      0
+node06.engr.wustl.edu ok              -     36     33     33      0      0      0
+node07.engr.wustl.edu ok              -     24      0      0      0      0      0
+node08.engr.wustl.edu ok              -     24     15     15      0      0      0
+node09.engr.wustl.edu ok              -     24     22     22      0      0      0
+node10.engr.wustl.edu ok              -     24     21     21      0      0      0
+node11.engr.wustl.edu ok              -     16      0      0      0      0      0
+node12.engr.wustl.edu closed_Full     -     36     36     36      0      0      0
+node13.engr.wustl.edu ok              -     36     24     24      0      0      0
+node14.engr.wustl.edu closed_Full     -     16     16     16      0      0      0
+node15.engr.wustl.edu closed_Full     -     16     16     16      0      0      0
+node16.engr.wustl.edu ok              -     16     12     12      0      0      0
+node17.engr.wustl.edu closed_Adm      -     16      0      0      0      0      0
+node18.engr.wustl.edu closed_Adm      -     32      0      0      0      0      0
+node19.engr.wustl.edu ok              -     36      0      0      0      0      0
+node20.engr.wustl.edu closed_Adm      -     20      0      0      0      0      0
+node21.engr.wustl.edu closed_Adm      -     12      0      0      0      0      0
+node22.engr.wustl.edu ok              -     36     16     16      0      0      0
+node23.engr.wustl.edu ok              -     24     17     17      0      0      0
+node24.engr.wustl.edu ok              -     24      1      1      0      0      0
+node25.engr.wustl.edu ok              -     24      8      8      0      0      0
+node26.engr.wustl.edu ok              -     24     16     16      0      0      0
+node27.engr.wustl.edu ok              -     24     16     16      0      0      0
+node28.engr.wustl.edu ok              -     24     16     16      0      0      0
+node29.engr.wustl.edu ok              -     48     44     44      0      0      0
+node30.engr.wustl.edu ok              -     28     16     16      0      0      0
+node31.engr.wustl.edu ok              -     12      6      6      0      0      0
+node32.engr.wustl.edu closed_Full     -     12     12     12      0      0      0
+node34.engr.wustl.edu unavail         -      1      0      0      0      0      0
+node36.engr.wustl.edu ok              -     12      8      8      0      0      0
+node38.engr.wustl.edu ok              -     12      1      1      0      0      0
+node39.engr.wustl.edu unavail         -      1      0      0      0      0      0
+node41.engr.wustl.edu ok              -     20      0      0      0      0      0
+node42.engr.wustl.edu ok              -     20      0      0      0      0      0
+node43.engr.wustl.edu ok              -     28      0      0      0      0      0
+node44.engr.wustl.edu ok              -     28      0      0      0      0      0
+node45.engr.wustl.edu ok              -     28      0      0      0      0      0
+node46.engr.wustl.edu ok              -     28     16     16      0      0      0
+node47.engr.wustl.edu ok              -     28      0      0      0      0      0
+node48.engr.wustl.edu closed_Adm      -     28      0      0      0      0      0
+node49.engr.wustl.edu ok              -     28      0      0      0      0      0
+node50.engr.wustl.edu ok              -     36      0      0      0      0      0
+node51.engr.wustl.edu ok              -     36      6      6      0      0      0
+node52.engr.wustl.edu ok              -     36      6      6      0      0      0
+node53.engr.wustl.edu ok              -     36      6      6      0      0      0
+node54.engr.wustl.edu ok              -     36      6      6      0      0      0
+node55.engr.wustl.edu ok              -     36      6      6      0      0      0
+node56.engr.wustl.edu ok              -     36      0      0      0      0      0
+node57.engr.wustl.edu ok              -     36      0      0      0      0      0
+node58.engr.wustl.edu ok              -     28      0      0      0      0      0
+node59.engr.wustl.edu ok              -     28      0      0      0      0      0
+node60.engr.wustl.edu ok              -     28      0      0      0      0      0
+node61.engr.wustl.edu ok              -     28      0      0      0      0      0
+node62.engr.wustl.edu ok              -     28      0      0      0      0      0
+node63.engr.wustl.edu ok              -     28      0      0      0      0      0
+node64.engr.wustl.edu ok              -     28      0      0      0      0      0
+node65.engr.wustl.edu ok              -     28     16     16      0      0      0
+node66.engr.wustl.edu ok              -     28      0      0      0      0      0
+node67.engr.wustl.edu ok              -     28      0      0      0      0      0
+node68.engr.wustl.edu ok              -     28      0      0      0      0      0
+node69.engr.wustl.edu ok              -     28      0      0      0      0      0
+node70.engr.wustl.edu ok              -     12      0      0      0      0      0
+node71.engr.wustl.edu ok              -     32      8      8      0      0      0
+node72.engr.wustl.edu ok              -     32      0      0      0      0      0
+node73.engr.wustl.edu ok              -     32      8      8      0      0      0
+node74.engr.wustl.edu closed_Adm      -     32      0      0      0      0      0
+node75.engr.wustl.edu ok              -     32     16     16      0      0      0
+node76.engr.wustl.edu ok              -     32     16     16      0      0      0
+node77.engr.wustl.edu ok              -     32     16     16      0      0      0
+node78.engr.wustl.edu ok              -     32     16     16      0      0      0
+osprey.engr.wustl.edu ok              -     16      0      0      0      0      0
+rambutan.engr.wustl.edu ok              -     36      2      2      0      0      0
+ray.engr.wustl.edu ok              -     20     19     19      0      0      0
+soursop.engr.wustl.edu ok              -     36      4      4      0      0      0
+sutra.engr.wustl.edu ok              -     20      0      0      0      0      0
+tantra.engr.wustl.edu ok              -     12      0      0      0      0      0
+vm2-2200.engr.wustl.edu ok              -      2      0      0      0      0      0
+yachay.engr.wustl.edu ok              -     32     14     14      0      0      0
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bhosts -w -gpu
+HOST_NAME            GPU_ID                MODEL     MUSED      MRSV  NJOBS    RUN   SUSP    RSV 
+a100-2207.engr.wustl.edu        0   NVIDIAA10080GBPCIe        8G        0G      1      1      0      0
+                          1   NVIDIAA10080GBPCIe        1G        0G      1      1      0      0
+                          2   NVIDIAA10080GBPCIe        1G        0G      1      1      0      0
+                          3   NVIDIAA10080GBPCIe       10G        0G      1      1      0      0
+                          4   NVIDIAA10080GBPCIe        1G        0G      1      1      0      0
+                          5   NVIDIAA10080GBPCIe        1G        0G      0      0      0      0
+                          6   NVIDIAA10080GBPCIe        1G        0G      0      0      0      0
+                          7   NVIDIAA10080GBPCIe        1G        0G      0      0      0      0
+a40-2205.engr.wustl.edu        0            NVIDIAA40        1G        0G      1      1      0      0
+                          1            NVIDIAA40        1G        0G      0      0      0      0
+                          2            NVIDIAA40        1G        0G      0      0      0      0
+                          3            NVIDIAA40        1G        0G      0      0      0      0
+                          4            NVIDIAA40        1G        0G      0      0      0      0
+                          5            NVIDIAA40        1G        0G      0      0      0      0
+                          6            NVIDIAA40        1G        0G      0      0      0      0
+                          7            NVIDIAA40        1G        0G      0      0      0      0
+a40-2206.engr.wustl.edu        0            NVIDIAA40        1G        0G      0      0      0      0
+                          1            NVIDIAA40        1G        0G      0      0      0      0
+                          2            NVIDIAA40        1G        0G      0      0      0      0
+                          3            NVIDIAA40        1G        0G      0      0      0      0
+                          4            NVIDIAA40        1G        0G      0      0      0      0
+                          5            NVIDIAA40        1G        0G      0      0      0      0
+                          6            NVIDIAA40        1G        0G      0      0      0      0
+                          7            NVIDIAA40        1G        0G      0      0      0      0
+cassini.seas.wustl.edu        0 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+chenguang01.engr.wustl.edu        0       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          1       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          2       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          3       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          4       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          5       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          6       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          7       NVIDIARTXA6000        0G        0G      0      0      0      0
+chenguang02.engr.wustl.edu        0       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          1       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          2       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          3       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          4       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          5       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          6       NVIDIARTXA6000        0G        0G      0      0      0      0
+                          7       NVIDIARTXA6000        0G        0G      0      0      0      0
+cigserver1.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        2G        0G      1      1      0      0
+                          1 NVIDIAGeForceGTX1080Ti        2G        0G      1      1      0      0
+                          2 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          3 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+cigserver2.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          1 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          2 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          3 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+gnode01.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          1 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          2 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          3 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          4 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          5 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          6 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          7 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+gnode03.engr.wustl.edu        0        NVIDIATITANXp        0G        0G      0      0      0      0
+                          1 NVIDIAGeForceRTX2080Ti        0G        0G      0      0      0      0
+                          2 NVIDIAGeForceRTX2080Ti        2G        0G      1      1      0      0
+                          3 NVIDIAGeForceGTX1080Ti        0G        0G      1      1      0      0
+                          4 NVIDIAGeForceGTX1080Ti        0G        0G      1      1      0      0
+                          5 NVIDIAGeForceGTX1080Ti        0G        0G      1      1      0      0
+                          6 NVIDIAGeForceGTX1080Ti        0G        0G      1      1      0      0
+gnode04.engr.wustl.edu        0 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+                          1 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+                          2 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+                          3 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+                          4 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+                          5 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+                          6 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+                          7 NVIDIAGeForceRTX2080        0G        0G      1      1      0      0
+gnode05.engr.wustl.edu        0            TeslaK40m        0G        0G      1      1      0      0
+                          1            TeslaK40m        0G        0G      1      1      0      0
+                          2            TeslaK40m        0G        0G      0      0      0      0
+                          3            TeslaK40m        0G        0G      0      0      0      0
+gnode07.engr.wustl.edu        0            TeslaK40c        0G        0G      0      0      0      0
+                          1 NVIDIAGeForceGTXTITANBlack        0G        0G      1      1      0      0
+                          2            TeslaK40c        0G        0G      0      0      0      0
+                          3 NVIDIAGeForceGTXTITAN        0G        0G      0      0      0      0
+gnode08.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          1 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          2 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          3 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+gnode09.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          1 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+gnode10.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          1 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          2 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          3 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+gnode11.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          1 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          2 NVIDIAGeForceGTX1080Ti        1G        0G      1      1      0      0
+                          3 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+hondius.seas.wustl.edu        0 NVIDIAGeForceGTX980Ti        0G        0G      0      0      0      0
+linuxlab004.engr.wustl.edu        0  NVIDIAGeForceGTX750        0G        0G      0      0      0      0
+linuxlab005.engr.wustl.edu        0  NVIDIAGeForceGTX750        0G        0G      0      0      0      0
+linuxlab006.engr.wustl.edu        0  NVIDIAGeForceGTX750        0G        0G      0      0      0      0
+linuxlab007.engr.wustl.edu        0  NVIDIAGeForceGTX750        0G        0G      0      0      0      0
+linuxlab008.engr.wustl.edu        0  NVIDIAGeForceGTX750        0G        0G      0      0      0      0
+linuxlab009.engr.wustl.edu        0  NVIDIAGeForceGTX750        0G        0G      0      0      0      0
+linuxlab011.engr.wustl.edu        0  NVIDIAGeForceGTX750        0G        0G      0      0      0      0
+lotus.engr.wustl.edu        0 NVIDIAGeForceRTX2080        0G        0G      0      0      0      0
+                          1 NVIDIAGeForceRTX2080        0G        0G      0      0      0      0
+                          2 NVIDIAGeForceRTX2080        0G        0G      0      0      0      0
+                          3 NVIDIAGeForceRTX2080        0G        0G      0      0      0      0
+osprey.engr.wustl.edu        0            NVIDIAA40        1G        0G      0      0      0      0
+                          1            NVIDIAA40        1G        0G      0      0      0      0
+                          2            NVIDIAA40        1G        0G      0      0      0      0
+sutra.engr.wustl.edu        0  TeslaP100_PCIE_12GB        0G        0G      0      0      0      0
+                          1  TeslaP100_PCIE_12GB        0G        0G      0      0      0      0
+                          2  TeslaP100_PCIE_12GB        0G        0G      0      0      0      0
+                          3  TeslaP100_PCIE_12GB        0G        0G      0      0      0      0
+yachay.engr.wustl.edu        0 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          1 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          2 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          3 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          4 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          5 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          6 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+                          7 NVIDIAGeForceGTX1080Ti        0G        0G      0      0      0      0
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ [4@(reverse-i-search)`':[C^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ 
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ 
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ 
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ [4@(reverse-i-search)`':[Co': bhosts -w -gpu[1@s[C[C[C[C[Cp': bsub -gpu "num=1" -m osprey -Is /bin/bash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P[jacobsn@ssh8 ~]$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2
+Job <120269> is submitted to default queue <interactive>.
+<<Waiting for dispatch ...>>
+<<Starting on osprey.engr.wustl.edu>>
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ nvidia-smi
+Wed Mar 22 16:33:32 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.48.07    Driver Version: 515.48.07    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A40          Off  | 00000000:1A:00.0 Off |                    0 |
+|  0%   25C    P8    29W / 300W |      0MiB / 46068MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A40          Off  | 00000000:1B:00.0 Off |                    0 |
+|  0%   25C    P8    29W / 300W |      0MiB / 46068MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ df -h
+Filesystem                                Size  Used Avail Use% Mounted on
+devtmpfs                                  189G     0  189G   0% /dev
+tmpfs                                     189G   34M  189G   1% /dev/shm
+tmpfs                                     189G  4.1G  185G   3% /run
+tmpfs                                     189G     0  189G   0% /sys/fs/cgroup
+/dev/nvme0n1p3                             64G   38G   27G  58% /
+/dev/nvme0n1p5                            880G  6.2G  874G   1% /tmp
+/dev/md10                                  21T  639G   21T   3% /scratch
+/dev/nvme0n1p2                            2.0G  371M  1.7G  19% /boot
+nfs.seas.wustl.edu:/seaslab/compute       750G  665G   86G  89% /project/compute
+//storage1.ris.wustl.edu/jacobsn          100T   20T   81T  20% /storage1/jacobsn
+nfs.seas.wustl.edu:/seaslab/home-compute   18T   13T  4.6T  74% /home/research
+nfs.seas.wustl.edu:/seaslab/home-secure    18T   13T  4.6T  74% /home/home-secure
+nfs.seas.wustl.edu:/seaslab/home-lab       18T   13T  4.6T  74% /home/warehouse
+nfs.seas.wustl.edu:/seaslab/home-compute   18T   13T  4.6T  74% /home/home-compute
+nfs.seas.wustl.edu:/seaslab/home-lab       18T   13T  4.6T  74% /home/home-lab
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ ls /scratch/
+[0m[38;5;33ma.kirsch[0m  [38;5;33mben.j.mueller[0m  [38;5;40mcolmap.sif[0m  [38;5;33mdata[0m  [38;5;33mjacobsn[0m  [38;5;33mk.subash[0m  [38;5;33mlanierm[0m  [38;5;33mlightning_logs[0m  [38;5;33mmvrl-data.cse[0m  [38;5;40mnvidia-bober.sif[0m  [38;5;40mnvidia-root.sif[0m  [38;5;40mpytorch_lightning.sif[0m
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ ls
+[0m[38;5;33mDesktop[0m    [38;5;33mDownloads[0m   [38;5;33mmail[0m        [38;5;33mMusic[0m     [38;5;33mPictures[0m     [38;5;33mprojects[0m  [38;5;33mTemplates[0m                           typescript
+[38;5;33mDocuments[0m  index.html  [48;5;232;38;5;9mminiconda3[0m  [38;5;33mondemand[0m  [38;5;33mplaypen_lsf[0m  [38;5;33mPublic[0m    tmp_NVIDIAGeForceGTXTITANBlack.out  [38;5;33mVideos[0m
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ ls -la
+total 324
+drwx--x--x  30 jacobsn root         4096 Mar 22 16:31 [0m[38;5;33m.[0m
+drwxr-xr-x 791 root    root        65536 Mar 21 17:17 [38;5;33m..[0m
+drwx------   2 jacobsn domainusers  4096 Nov  2 09:33 [38;5;33m.apptainer[0m
+-rw-------   1 jacobsn domainusers 18894 Mar 20 13:29 .bash_history
+-rwx------   1 jacobsn root           18 Dec 13  2021 [38;5;40m.bash_logout[0m
+-rwx------   1 jacobsn root          193 Dec 13  2021 [38;5;40m.bash_profile[0m
+-rwx------   1 jacobsn root          754 Dec 14  2021 [38;5;40m.bashrc[0m
+drwx------  11 jacobsn domainusers  4096 Oct 25 08:42 [38;5;33m.cache[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.conda[0m
+drwx------  11 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.config[0m
+drwx------   3 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.dbus[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mDesktop[0m
+drwxr-xr-x   3 jacobsn domainusers  4096 Feb 21 12:05 [38;5;33mDocuments[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mDownloads[0m
+-rw-------   1 jacobsn domainusers    16 Dec 13  2021 .esd_auth
+-rw-r--r--   1 jacobsn domainusers   153 Oct 25 13:55 .gitconfig
+drwx------   3 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.gnupg[0m
+drwx------   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.gvfs[0m
+-rw-------   1 jacobsn domainusers   318 Dec 14  2021 .ICEauthority
+-rw-r--r--   1 jacobsn domainusers    15 Feb  8 08:51 index.html
+-rwx------   1 jacobsn root          172 Dec 13  2021 [38;5;40m.kshrc[0m
+-rw-------   1 jacobsn domainusers   210 Nov  2 08:59 .lesshst
+drwxr-xr-x   3 jacobsn domainusers  4096 Dec 13  2021 [38;5;33m.local[0m
+drwx------   2 jacobsn domainusers 16384 Mar 22 16:33 [38;5;33m.lsbatch[0m
+drwx------   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mmail[0m
+drwxr-xr-x   3 jacobsn domainusers  4096 Feb 21 12:03 [38;5;33m.matlab[0m
+lrwxrwxrwx   1 jacobsn domainusers    33 Oct 25 09:46 [48;5;232;38;5;9mminiconda3[0m -> [01;05;37;41m/scratch/user/jacobsn/miniconda3/[0m
+drwx------   6 jacobsn root         4096 Dec 14  2021 [38;5;33m.mozilla[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mMusic[0m
+drwx------   3 jacobsn domainusers  4096 Oct 25 09:04 [38;5;33m.nv[0m
+drwxr-xr-x   3 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mondemand[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mPictures[0m
+-rw-------   1 jacobsn domainusers 25892 Dec 14  2021 .pinerc
+drwxr-----   3 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.pki[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mplaypen_lsf[0m
+drwxr-xr-x   3 jacobsn domainusers  4096 Oct 25 07:49 [38;5;33mprojects[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mPublic[0m
+-rw-------   1 jacobsn domainusers    60 Nov  2 10:31 .python_history
+drwx------   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.singularity[0m
+drwx------   2 jacobsn domainusers  4096 Oct 25 07:49 [38;5;33m.ssh[0m
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mTemplates[0m
+-rw-r--r--   1 jacobsn domainusers  1548 Oct 25 07:55 tmp_NVIDIAGeForceGTXTITANBlack.out
+-rw-r--r--   1 jacobsn domainusers 24576 Mar 22 16:31 typescript
+drwxr-xr-x   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33mVideos[0m
+-rw-------   1 jacobsn domainusers 14269 Feb 10 09:18 .viminfo
+drwx------   2 jacobsn domainusers  4096 Dec 14  2021 [38;5;33m.vnc[0m
+-rw-------   1 jacobsn domainusers   505 Jul 14  2022 .Xauthority
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ ls
+[0m[38;5;33mDesktop[0m    [38;5;33mDownloads[0m   [38;5;33mmail[0m        [38;5;33mMusic[0m     [38;5;33mPictures[0m     [38;5;33mprojects[0m  [38;5;33mTemplates[0m                           typescript
+[38;5;33mDocuments[0m  index.html  [48;5;232;38;5;9mminiconda3[0m  [38;5;33mondemand[0m  [38;5;33mplaypen_lsf[0m  [38;5;33mPublic[0m    tmp_NVIDIAGeForceGTXTITANBlack.out  [38;5;33mVideos[0m
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ ls /scratch/
+[0m[38;5;33ma.kirsch[0m  [38;5;33mben.j.mueller[0m  [38;5;40mcolmap.sif[0m  [38;5;33mdata[0m  [38;5;33mjacobsn[0m  [38;5;33mk.subash[0m  [38;5;33mlanierm[0m  [38;5;33mlightning_logs[0m  [38;5;33mmvrl-data.cse[0m  [38;5;40mnvidia-bober.sif[0m  [38;5;40mnvidia-root.sif[0m  [38;5;40mpytorch_lightning.sif[0m
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ exit
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls
+[0m[38;5;33mDesktop[0m    [38;5;33mDownloads[0m   [38;5;33mmail[0m        [38;5;33mMusic[0m     [38;5;33mPictures[0m     [38;5;33mprojects[0m  [38;5;33mTemplates[0m                           typescript
+[38;5;33mDocuments[0m  index.html  [48;5;232;38;5;9mminiconda3[0m  [38;5;33mondemand[0m  [38;5;33mplaypen_lsf[0m  [38;5;33mPublic[0m    tmp_NVIDIAGeForceGTXTITANBlack.out  [38;5;33mVideos[0m
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ lsbsub -gpu "num=2" -m osprey -Is /bin/bash[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Job <120274> is submitted to default queue <interactive>.
+<<Waiting for dispatch ...>>
+<<Starting on osprey.engr.wustl.edu>>
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ nvidia-smi
+No devices were found
+]0;jacobsn@osprey:~[jacobsn@osprey ~]$ exit
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey -Is /bin/bash[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K hostname[C
+Job <120275> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls
+[0m[38;5;33mDesktop[0m    [38;5;33mDownloads[0m   [38;5;33mmail[0m        [38;5;33mMusic[0m     [38;5;33mPictures[0m     [38;5;33mprojects[0m  [38;5;33mTemplates[0m                           typescript
+[38;5;33mDocuments[0m  index.html  [48;5;232;38;5;9mminiconda3[0m  [38;5;33mondemand[0m  [38;5;33mplaypen_lsf[0m  [38;5;33mPublic[0m    tmp_NVIDIAGeForceGTXTITANBlack.out  [38;5;33mVideos[0m
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ sl[K[Kls ~/
+.apptainer/                         .esd_auth                           miniconda3                          .singularity/
+.bash_history                       .gitconfig                          .mozilla/                           .ssh/
+.bash_logout                        .gnupg/                             Music/                              Templates/
+.bash_profile                       .gvfs/                              .nv/                                tmp_NVIDIAGeForceGTXTITANBlack.out
+.bashrc                             .ICEauthority                       ondemand/                           typescript
+.cache/                             index.html                          Pictures/                           Videos/
+.conda/                             .kshrc                              .pinerc                             .viminfo
+.config/                            .lesshst                            .pki/                               .vnc/
+.dbus/                              .local/                             playpen_lsf/                        .Xauthority
+Desktop/                            .lsbatch/                           projects/                           
+Documents/                          mail/                               Public/                             
+Downloads/                          .matlab/                            .python_history                     
+[jacobsn@ssh8 ~]$ ls ~/.
+./               .bash_logout     .conda/          .gitconfig       .kshrc           .matlab/         .pki/            .viminfo         
+../              .bash_profile    .config/         .gnupg/          .lesshst         .mozilla/        .python_history  .vnc/            
+.apptainer/      .bashrc          .dbus/           .gvfs/           .local/          .nv/             .singularity/    .Xauthority      
+.bash_history    .cache/          .esd_auth        .ICEauthority    .lsbatch/        .pinerc          .ssh/            
+[jacobsn@ssh8 ~]$ ls ~/.local/q[Kshare/
+containers/    evolution/     gvfs-metadata/ tracker/       
+[jacobsn@ssh8 ~]$ ls ~/.local/share/^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls
+[0m[38;5;33mDesktop[0m    [38;5;33mDownloads[0m   [38;5;33mmail[0m        [38;5;33mMusic[0m     [38;5;33mPictures[0m     [38;5;33mprojects[0m  [38;5;33mTemplates[0m                           typescript
+[38;5;33mDocuments[0m  index.html  [48;5;232;38;5;9mminiconda3[0m  [38;5;33mondemand[0m  [38;5;33mplaypen_lsf[0m  [38;5;33mPublic[0m    tmp_NVIDIAGeForceGTXTITANBlack.out  [38;5;33mVideos[0m
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls /tmp
+checkris.chenguangwang.1691291  checkris.pappu.3674215     checkris.pjfowler.3433000  checkris.rka.2563396
+checkris.chenguangwang.1691656  checkris.pappu.3674395     checkris.pjfowler.3433319  checkris.rka.2564545
+checkris.chenguangwang.1691869  checkris.pappu.3674564     checkris.pjfowler.3433395  checkris.rka.2564729
+checkris.chenguangwang.1692052  checkris.pappu.3674734     checkris.pjfowler.3433582  checkris.rka.2565018
+checkris.chenguangwang.1692248  checkris.pappu.3674908     checkris.pjfowler.3434194  checkris.rka.2565228
+checkris.chenguangwang.1692447  checkris.pappu.3675076     checkris.pjfowler.3434957  checkris.rka.2565404
+checkris.chenguangwang.1692664  checkris.pappu.3675244     checkris.pjfowler.3435287  checkris.rka.2565585
+checkris.chenguangwang.1692874  checkris.pappu.3675432     checkris.pjfowler.3436140  checkris.rka.2567168
+checkris.chenguangwang.1739074  checkris.pappu.3721300     checkris.pjfowler.3436964  checkris.rka.2613414
+checkris.chenguangwang.1739316  checkris.pappu.3721467     checkris.pjfowler.3437173  checkris.rka.2613590
+checkris.chenguangwang.1739534  checkris.pappu.3721644     checkris.pjfowler.3437415  checkris.rka.2613821
+checkris.chenguangwang.1739765  checkris.pappu.3721819     checkris.pjfowler.3438315  checkris.rka.2613998
+checkris.chenguangwang.1739941  checkris.pappu.3721988     checkris.pjfowler.3479436  checkris.rka.2614416
+checkris.chenguangwang.1740298  checkris.pappu.3722155     checkris.pjfowler.3479605  checkris.rka.2614608
+checkris.chenguangwang.1740478  checkris.pappu.3722321     checkris.pjfowler.3479780  checkris.rka.2614793
+checkris.chenguangwang.1740657  checkris.pappu.3722492     checkris.pjfowler.3479952  checkris.rka.2614963
+checkris.chenguangwang.1740865  checkris.pappu.3722861     checkris.pjfowler.3480241  checkris.rka.2615328
+checkris.chenguangwang.1741032  checkris.pappu.3723027     checkris.pjfowler.3480414  checkris.rka.2615516
+checkris.chenguangwang.1741267  checkris.pappu.3723196     checkris.pjfowler.3480582  checkris.rka.2615701
+checkris.chenguangwang.1741453  checkris.pappu.3723386     checkris.pjfowler.3480753  checkris.rka.2615892
+checkris.chenguangwang.1787468  checkris.pappu.3769267     checkris.pjfowler.3480934  checkris.rka.2661963
+checkris.chenguangwang.1787642  checkris.pappu.3769434     checkris.pjfowler.3481099  checkris.rka.2662135
+checkris.chenguangwang.1788021  checkris.pappu.3769609     checkris.pjfowler.3481265  checkris.rka.2662520
+checkris.chenguangwang.1788187  checkris.pappu.3769780     checkris.pjfowler.3481454  checkris.rka.2662798
+checkris.chenguangwang.1788377  checkris.pappu.3769947     checkris.pjfowler.3485190  checkris.rka.2663065
+checkris.chenguangwang.1788571  checkris.pappu.3770123     checkris.pjfowler.3485521  checkris.rka.2663626
+checkris.chenguangwang.1788753  checkris.pappu.3770298     checkris.pjfowler.3486626  checkris.rka.2666102
+checkris.chenguangwang.1788898  checkris.pappu.3770470     checkris.pjfowler.3487473  checkris.rka.2668770
+checkris.chenguangwang.1789099  checkris.pappu.3770648     checkris.pjfowler.3488351  checkris.rka.2669081
+checkris.chenguangwang.1789266  checkris.pappu.3770814     checkris.pjfowler.3489085  checkris.rka.2670270
+checkris.chenguangwang.1789432  checkris.pappu.3770986     checkris.pjfowler.3489524  checkris.rka.2670596
+checkris.chenguangwang.1789632  checkris.pappu.3771180     checkris.pjfowler.3490446  checkris.rka.2671104
+checkris.chenguangwang.1835786  checkris.pappu.3817055     checkris.pjfowler.3491136  checkris.rka.2718121
+checkris.chenguangwang.1835961  checkris.pappu.3817224     checkris.pjfowler.3491666  checkris.rka.2718599
+checkris.chenguangwang.1836378  checkris.pappu.3817486     checkris.pjfowler.3492021  checkris.rka.2718855
+checkris.chenguangwang.1836548  checkris.pappu.3817658     checkris.pjfowler.3492270  checkris.rka.2719244
+checkris.chenguangwang.1836729  checkris.pappu.3817826     checkris.pjfowler.3527312  checkris.rka.2719428
+checkris.chenguangwang.1836919  checkris.pappu.3818013     checkris.pjfowler.3527480  checkris.rka.2719633
+checkris.chenguangwang.1837108  checkris.pappu.3818178     checkris.pjfowler.3527658  checkris.rka.2719819
+checkris.chenguangwang.1837304  checkris.pappu.3818459     checkris.pjfowler.3527953  checkris.rka.2720095
+checkris.chenguangwang.1837508  checkris.pappu.3818635     checkris.pjfowler.3528642  checkris.rka.2720336
+checkris.chenguangwang.1837731  checkris.pappu.3818761     checkris.pjfowler.3528929  checkris.rka.2720515
+checkris.chenguangwang.1838017  checkris.pappu.3818931     checkris.pjfowler.3529213  checkris.rka.2720700
+checkris.chenguangwang.1838213  checkris.pappu.3819132     checkris.pjfowler.3529385  checkris.rka.2720829
+checkris.chenguangwang.1884227  checkris.pappu.3865017     checkris.pjfowler.3529812  checkris.rka.2766818
+checkris.chenguangwang.1884401  checkris.pappu.3865346     checkris.pjfowler.3529978  checkris.rka.2767000
+checkris.chenguangwang.1884604  checkris.pappu.3865527     checkris.pjfowler.3530155  checkris.rka.2767312
+checkris.chenguangwang.1884782  checkris.pappu.3865692     checkris.pjfowler.3530455  checkris.rka.2767604
+checkris.chenguangwang.1884952  checkris.pappu.3865861     checkris.pjfowler.3538386  checkris.rka.2767797
+checkris.chenguangwang.1885148  checkris.pappu.3866035     checkris.pjfowler.3539318  checkris.rka.2768011
+checkris.chenguangwang.1885328  checkris.pappu.3866204     checkris.pjfowler.3540262  checkris.rka.2768186
+checkris.chenguangwang.1885595  checkris.pappu.3866375     checkris.pjfowler.3540942  checkris.rka.2768467
+checkris.chenguangwang.1885807  checkris.pjfowler.1011150  checkris.pjfowler.3550390  checkris.rka.2768672
+checkris.chenguangwang.1885991  checkris.pjfowler.1011304  checkris.pjfowler.3551396  checkris.rka.2769051
+checkris.chenguangwang.1886174  checkris.pjfowler.1011495  checkris.pjfowler.3552330  checkris.rka.2769252
+checkris.chenguangwang.1886377  checkris.pjfowler.1011666  checkris.pjfowler.3553555  checkris.rka.2769470
+checkris.chenguangwang.1932402  checkris.pjfowler.1011830  checkris.pjfowler.3554381  checkris.rka.2815549
+checkris.chenguangwang.1932583  checkris.pjfowler.1012025  checkris.pjfowler.3555183  checkris.rka.2815750
+checkris.chenguangwang.1932789  checkris.pjfowler.1012190  checkris.pjfowler.3555636  checkris.rka.2815969
+checkris.chenguangwang.1932972  checkris.pjfowler.1012358  checkris.pjfowler.3555916  checkris.rka.2816171
+checkris.chenguangwang.1933146  checkris.pjfowler.1012546  checkris.pjfowler.3576458  checkris.rka.2816388
+checkris.chenguangwang.1933358  checkris.pjfowler.1012712  checkris.pjfowler.3576837  checkris.rka.2816599
+checkris.chenguangwang.1933535  checkris.pjfowler.1012880  checkris.pjfowler.3577008  checkris.rka.2816980
+checkris.chenguangwang.1933713  checkris.pjfowler.1013065  checkris.pjfowler.3577175  checkris.rka.2817161
+checkris.chenguangwang.1934248  checkris.pjfowler.1059011  checkris.pjfowler.3577441  checkris.rka.2817381
+checkris.chenguangwang.1934431  checkris.pjfowler.1059174  checkris.pjfowler.3577836  checkris.rka.2817566
+checkris.chenguangwang.1934876  checkris.pjfowler.1059368  checkris.pjfowler.3578035  checkris.rka.2817876
+checkris.chenguangwang.1935072  checkris.pjfowler.1059534  checkris.pjfowler.3578318  checkris.rka.2818079
+checkris.chenguangwang.1981149  checkris.pjfowler.1059695  checkris.pjfowler.3578500  checkris.rka.2864156
+checkris.chenguangwang.1981325  checkris.pjfowler.1059887  checkris.pjfowler.3578680  checkris.rka.2864350
+checkris.chenguangwang.1981531  checkris.pjfowler.1060051  checkris.pjfowler.3578851  checkris.rka.2864675
+checkris.chenguangwang.1981729  checkris.pjfowler.1060218  checkris.pjfowler.3579036  checkris.rka.2864863
+checkris.chenguangwang.1981916  checkris.pjfowler.1060408  checkris.pjfowler.3602017  checkris.rka.2865157
+checkris.chenguangwang.1982189  checkris.pjfowler.1060576  checkris.pjfowler.3602182  checkris.rka.2865883
+checkris.chenguangwang.1982382  checkris.pjfowler.1060739  checkris.pjfowler.3602354  checkris.rka.2866232
+checkris.chenguangwang.1982564  checkris.pjfowler.1060924  checkris.pjfowler.3602624  checkris.rka.2866413
+checkris.chenguangwang.1982781  checkris.pjfowler.1106882  checkris.pjfowler.3604197  checkris.rka.2866623
+checkris.chenguangwang.1982976  checkris.pjfowler.1107045  checkris.pjfowler.3604462  checkris.rka.2866965
+checkris.chenguangwang.1983152  checkris.pjfowler.1107236  checkris.pjfowler.3604636  checkris.rka.2867154
+checkris.chenguangwang.1983369  checkris.pjfowler.1107402  checkris.pjfowler.3604972  checkris.rka.2867458
+checkris.chenguangwang.2029391  checkris.pjfowler.1107565  checkris.pjfowler.3605136  checkris.rka.2915006
+checkris.chenguangwang.2029575  checkris.pjfowler.1107754  checkris.pjfowler.3605297  checkris.rka.2915195
+checkris.chenguangwang.2029784  checkris.pjfowler.1107919  checkris.pjfowler.3605463  checkris.rka.2915406
+checkris.chenguangwang.2029966  checkris.pjfowler.1108081  checkris.pjfowler.3605661  checkris.rka.2915602
+checkris.chenguangwang.2030142  checkris.pjfowler.1108272  checkris.pjfowler.3624924  checkris.rka.2916116
+checkris.chenguangwang.2030345  checkris.pjfowler.1108437  checkris.pjfowler.3625237  checkris.rka.2916612
+checkris.chenguangwang.2030528  checkris.pjfowler.1108604  checkris.pjfowler.3625416  checkris.rka.2916809
+checkris.chenguangwang.2030700  checkris.pjfowler.1108788  checkris.pjfowler.3625602  checkris.rka.2917104
+checkris.chenguangwang.2030911  checkris.pjfowler.1154737  checkris.pjfowler.3625765  checkris.rka.2917351
+checkris.chenguangwang.2031080  checkris.pjfowler.1154905  checkris.pjfowler.3625940  checkris.rka.2917619
+checkris.chenguangwang.2031266  checkris.pjfowler.1155096  checkris.pjfowler.3626113  checkris.rka.2917829
+checkris.chenguangwang.2031460  checkris.pjfowler.1155262  checkris.pjfowler.3626285  checkris.rka.2918039
+checkris.chenguangwang.2077486  checkris.pjfowler.1155424  checkris.pjfowler.3626461  checkris.rka.2964240
+checkris.chenguangwang.2077661  checkris.pjfowler.1155798  checkris.pjfowler.3626626  checkris.rka.2964517
+checkris.chenguangwang.2077888  checkris.pjfowler.1155974  checkris.pjfowler.3626796  checkris.rka.2964738
+checkris.chenguangwang.2078066  checkris.pjfowler.1156157  checkris.pjfowler.3627096  checkris.rka.2964949
+checkris.chenguangwang.2078242  checkris.pjfowler.1156349  checkris.pjfowler.3652847  checkris.rka.2965586
+checkris.chenguangwang.2078448  checkris.pjfowler.1156512  checkris.pjfowler.3663599  checkris.rka.2966354
+checkris.chenguangwang.2078626  checkris.pjfowler.1156675  checkris.pjfowler.3663817  checkris.rka.2967498
+checkris.chenguangwang.2078855  checkris.pjfowler.1156780  checkris.pjfowler.3664362  checkris.rka.2968375
+checkris.chenguangwang.2079063  checkris.pjfowler.1202616  checkris.pjfowler.3664716  checkris.rka.2968782
+checkris.chenguangwang.2079244  checkris.pjfowler.1202707  checkris.pjfowler.3665170  checkris.rka.2969486
+checkris.chenguangwang.2079382  checkris.pjfowler.1202948  checkris.pjfowler.3666154  checkris.rka.2971326
+checkris.chenguangwang.2079587  checkris.pjfowler.1203112  checkris.pjfowler.3666355  checkris.rka.2972075
+checkris.chenguangwang.2125610  checkris.pjfowler.1203272  checkris.pjfowler.3666795  checkris.rka.3018933
+checkris.chenguangwang.2125789  checkris.pjfowler.1203455  checkris.pjfowler.3666982  checkris.rka.3019276
+checkris.chenguangwang.2125996  checkris.pjfowler.1203909  checkris.pjfowler.3667367  checkris.rka.3019640
+checkris.chenguangwang.2126176  checkris.pjfowler.1205208  checkris.pjfowler.3673063  checkris.rka.3019834
+checkris.chenguangwang.2126351  checkris.pjfowler.1205616  checkris.pjfowler.3673590  checkris.rka.3021106
+checkris.chenguangwang.2126561  checkris.pjfowler.1205912  checkris.pjfowler.3673762  checkris.rka.3021501
+checkris.chenguangwang.2126736  checkris.pjfowler.1206339  checkris.pjfowler.3673929  checkris.rka.3021948
+checkris.chenguangwang.2126913  checkris.pjfowler.1206555  checkris.pjfowler.3674215  checkris.rka.3022820
+checkris.chenguangwang.2127115  checkris.pjfowler.1252520  checkris.pjfowler.3674395  checkris.rka.3023404
+checkris.chenguangwang.2127296  checkris.pjfowler.1252880  checkris.pjfowler.3674564  checkris.rka.3023773
+checkris.chenguangwang.2127471  checkris.pjfowler.1253076  checkris.pjfowler.3674734  checkris.rka.3023965
+checkris.chenguangwang.2127671  checkris.pjfowler.1253237  checkris.pjfowler.3674908  checkris.rka.3024311
+checkris.chenguangwang.2173699  checkris.pjfowler.1253403  checkris.pjfowler.3675076  checkris.rka.3070475
+checkris.chenguangwang.2173873  checkris.pjfowler.1253588  checkris.pjfowler.3675244  checkris.rka.3070659
+checkris.chenguangwang.2174085  checkris.pjfowler.1253750  checkris.pjfowler.3675432  checkris.rka.3071118
+checkris.chenguangwang.2174261  checkris.pjfowler.1253897  checkris.pjfowler.3713613  checkris.rka.3071407
+checkris.chenguangwang.2174438  checkris.pjfowler.1254071  checkris.pjfowler.3713810  checkris.rka.3071643
+checkris.chenguangwang.2174641  checkris.pjfowler.1254237  checkris.pjfowler.3714204  checkris.rka.3072011
+checkris.chenguangwang.2174937  checkris.pjfowler.1254398  checkris.pjfowler.3714403  checkris.rka.3072692
+checkris.chenguangwang.2175116  checkris.pjfowler.1254856  checkris.pjfowler.3714589  checkris.rka.3073112
+checkris.chenguangwang.2175333  checkris.pjfowler.1300986  checkris.pjfowler.3714801  checkris.rka.3073538
+checkris.chenguangwang.2175514  checkris.pjfowler.1301464  checkris.pjfowler.3715251  checkris.rka.3073886
+checkris.chenguangwang.2175695  checkris.pjfowler.1301809  checkris.pjfowler.3715557  checkris.rka.3076242
+checkris.chenguangwang.2175876  checkris.pjfowler.1301984  checkris.pjfowler.3715988  checkris.rka.3076765
+checkris.chenguangwang.2221908  checkris.pjfowler.1302149  checkris.pjfowler.3716183  checkris.rka.3123799
+checkris.chenguangwang.2222079  checkris.pjfowler.1302352  checkris.pjfowler.3716397  checkris.rka.3124164
+checkris.chenguangwang.2222290  checkris.pjfowler.1302529  checkris.pjfowler.3717031  checkris.rka.3124930
+checkris.chenguangwang.2222463  checkris.pjfowler.1302696  checkris.pjfowler.3721300  checkris.rka.3125639
+checkris.chenguangwang.2222642  checkris.pjfowler.1303014  checkris.pjfowler.3721467  checkris.rka.3126410
+checkris.chenguangwang.2222844  checkris.pjfowler.1303189  checkris.pjfowler.3721644  checkris.rka.3126791
+checkris.chenguangwang.2223027  checkris.pjfowler.1303356  checkris.pjfowler.3721819  checkris.rka.3127398
+checkris.chenguangwang.2223199  checkris.pjfowler.1303711  checkris.pjfowler.3721988  checkris.rka.3127670
+checkris.chenguangwang.2223407  checkris.pjfowler.1350168  checkris.pjfowler.3722155  checkris.rka.3127905
+checkris.chenguangwang.2223600  checkris.pjfowler.1350341  checkris.pjfowler.3722321  checkris.rka.3128151
+checkris.chenguangwang.2223779  checkris.pjfowler.1350537  checkris.pjfowler.3722492  checkris.rka.3128690
+checkris.chenguangwang.2223973  checkris.pjfowler.1350710  checkris.pjfowler.3722861  checkris.rka.3129351
+checkris.chenguangwang.2270005  checkris.pjfowler.1350877  checkris.pjfowler.3723027  checkris.rka.3176124
+checkris.chenguangwang.2270185  checkris.pjfowler.1351081  checkris.pjfowler.3723196  checkris.rka.3176924
+checkris.chenguangwang.2270387  checkris.pjfowler.1351254  checkris.pjfowler.3723386  checkris.rka.3177610
+checkris.chenguangwang.2270568  checkris.pjfowler.1351424  checkris.pjfowler.3763294  checkris.rka.3178127
+checkris.chenguangwang.2270740  checkris.pjfowler.1351616  checkris.pjfowler.3763489  checkris.rka.3178300
+checkris.chenguangwang.2270940  checkris.pjfowler.1351949  checkris.pjfowler.3763875  checkris.rka.3178605
+checkris.chenguangwang.2271121  checkris.pjfowler.1352123  checkris.pjfowler.3764355  checkris.rka.3179109
+checkris.chenguangwang.2271291  checkris.pjfowler.1352313  checkris.pjfowler.3764641  checkris.rka.3179462
+checkris.chenguangwang.2271500  checkris.pjfowler.1398307  checkris.pjfowler.3764964  checkris.rka.3179761
+checkris.chenguangwang.2271674  checkris.pjfowler.1398537  checkris.pjfowler.3765168  checkris.rka.3179983
+checkris.chenguangwang.2271857  checkris.pjfowler.1399142  checkris.pjfowler.3765359  checkris.rka.3180320
+checkris.chenguangwang.2272058  checkris.pjfowler.1399327  checkris.pjfowler.3769267  checkris.rka.3180633
+checkris.chenguangwang.2318094  checkris.pjfowler.1399489  checkris.pjfowler.3769434  checkris.rka.3226795
+checkris.chenguangwang.2318273  checkris.pjfowler.1399687  checkris.pjfowler.3769609  checkris.rka.3226983
+checkris.chenguangwang.2318478  checkris.pjfowler.1399853  checkris.pjfowler.3769780  checkris.rka.3227476
+checkris.chenguangwang.2318654  checkris.pjfowler.1400024  checkris.pjfowler.3769947  checkris.rka.3227788
+checkris.chenguangwang.2318828  checkris.pjfowler.1400226  checkris.pjfowler.3770123  checkris.rka.3228703
+checkris.chenguangwang.2319030  checkris.pjfowler.1400490  checkris.pjfowler.3770298  checkris.rka.3229208
+checkris.chenguangwang.2319214  checkris.pjfowler.1400617  checkris.pjfowler.3770470  checkris.rka.3229730
+checkris.chenguangwang.2319381  checkris.pjfowler.1400786  checkris.pjfowler.3770648  checkris.rka.3230553
+checkris.chenguangwang.2319599  checkris.pjfowler.1446775  checkris.pjfowler.3770814  checkris.rka.3230976
+checkris.chenguangwang.2319775  checkris.pjfowler.1447083  checkris.pjfowler.3770986  checkris.rka.3231277
+checkris.chenguangwang.2319951  checkris.pjfowler.1447442  checkris.pjfowler.3771180  checkris.rka.3231731
+checkris.chenguangwang.2320150  checkris.pjfowler.1447788  checkris.pjfowler.3817055  checkris.rka.3232141
+checkris.chenguangwang.2366293  checkris.pjfowler.1448141  checkris.pjfowler.3817224  checkris.rka.3241234
+checkris.chenguangwang.2366451  checkris.pjfowler.1448406  checkris.pjfowler.3817486  checkris.rka.3241440
+checkris.chenguangwang.2366737  checkris.pjfowler.1449015  checkris.pjfowler.3817658  checkris.rka.3278265
+checkris.chenguangwang.2366890  checkris.pjfowler.1449194  checkris.pjfowler.3817826  checkris.rka.3278494
+checkris.chenguangwang.2367044  checkris.pjfowler.1449403  checkris.pjfowler.3818013  checkris.rka.3278744
+checkris.chenguangwang.2367210  checkris.pjfowler.1449615  checkris.pjfowler.3818178  checkris.rka.3278950
+checkris.chenguangwang.2367362  checkris.pjfowler.1450022  checkris.pjfowler.3818459  checkris.rka.3279155
+checkris.chenguangwang.2367687  checkris.pjfowler.1450632  checkris.pjfowler.3818635  checkris.rka.3279817
+checkris.chenguangwang.2367854  checkris.pjfowler.145821   checkris.pjfowler.3818761  checkris.rka.3280497
+checkris.chenguangwang.2368012  checkris.pjfowler.146094   checkris.pjfowler.3818931  checkris.rka.3280713
+checkris.chenguangwang.2368168  checkris.pjfowler.146315   checkris.pjfowler.3819132  checkris.rka.3280949
+checkris.chenguangwang.2368343  checkris.pjfowler.146652   checkris.pjfowler.3865017  checkris.rka.3281169
+checkris.chenguangwang.2414365  checkris.pjfowler.147105   checkris.pjfowler.3865346  checkris.rka.3281361
+checkris.chenguangwang.2414525  checkris.pjfowler.147305   checkris.pjfowler.3865527  checkris.rka.3281585
+checkris.chenguangwang.2414657  checkris.pjfowler.147473   checkris.pjfowler.3865692  checkris.rka.3287291
+checkris.chenguangwang.2414816  checkris.pjfowler.147653   checkris.pjfowler.3865861  checkris.rka.3287449
+checkris.chenguangwang.2414965  checkris.pjfowler.147842   checkris.pjfowler.3866035  checkris.rka.3287662
+checkris.chenguangwang.2415137  checkris.pjfowler.148019   checkris.pjfowler.386610   checkris.rka.3287833
+checkris.chenguangwang.2415617  checkris.pjfowler.148192   checkris.pjfowler.3866204  checkris.rka.3288000
+checkris.chenguangwang.2415777  checkris.pjfowler.148383   checkris.pjfowler.3866375  checkris.rka.3288174
+checkris.chenguangwang.2415951  checkris.pjfowler.1496733  checkris.pjfowler.386774   checkris.rka.3288340
+checkris.chenguangwang.2416103  checkris.pjfowler.1497061  checkris.pjfowler.387053   checkris.rka.3288511
+checkris.chenguangwang.2416376  checkris.pjfowler.1497279  checkris.pjfowler.387222   checkris.rka.3288690
+checkris.chenguangwang.2416662  checkris.pjfowler.1497566  checkris.pjfowler.387378   checkris.rka.3288917
+checkris.chenguangwang.2462791  checkris.pjfowler.1497936  checkris.pjfowler.387726   checkris.rka.3289425
+checkris.chenguangwang.2463199  checkris.pjfowler.1498156  checkris.pjfowler.387888   checkris.rka.3289609
+checkris.chenguangwang.2463370  checkris.pjfowler.1498341  checkris.pjfowler.388046   checkris.rka.3327925
+checkris.chenguangwang.2463628  checkris.pjfowler.1498506  checkris.pjfowler.388241   checkris.rka.3328242
+checkris.chenguangwang.2463780  checkris.pjfowler.1498895  checkris.pjfowler.388397   checkris.rka.3328526
+checkris.chenguangwang.2463955  checkris.pjfowler.1499431  checkris.pjfowler.388491   checkris.rka.3328710
+checkris.chenguangwang.2464119  checkris.pjfowler.1499633  checkris.pjfowler.388627   checkris.rka.3328912
+checkris.chenguangwang.2464275  checkris.pjfowler.1499817  checkris.pjfowler.434463   checkris.rka.3329240
+checkris.chenguangwang.2464431  checkris.pjfowler.1545811  checkris.pjfowler.434619   checkris.rka.3329799
+checkris.chenguangwang.2464588  checkris.pjfowler.1545978  checkris.pjfowler.434825   checkris.rka.3330114
+checkris.chenguangwang.2464774  checkris.pjfowler.1546212  checkris.pjfowler.435005   checkris.rka.3330331
+checkris.chenguangwang.2464968  checkris.pjfowler.1546381  checkris.pjfowler.435194   checkris.rka.3330516
+checkris.chenguangwang.2511022  checkris.pjfowler.1546562  checkris.pjfowler.435377   checkris.rka.3330895
+checkris.chenguangwang.2511487  checkris.pjfowler.1546865  checkris.pjfowler.435537   checkris.rka.3331249
+checkris.chenguangwang.2511695  checkris.pjfowler.1547051  checkris.pjfowler.435703   checkris.rka.3335463
+checkris.chenguangwang.2512034  checkris.pjfowler.1547217  checkris.pjfowler.435897   checkris.rka.3335632
+checkris.chenguangwang.2512207  checkris.pjfowler.1547426  checkris.pjfowler.436161   checkris.rka.3335807
+checkris.chenguangwang.2512422  checkris.pjfowler.1547595  checkris.pjfowler.436364   checkris.rka.3335973
+checkris.chenguangwang.2512651  checkris.pjfowler.1547714  checkris.pjfowler.436555   checkris.rka.3336141
+checkris.chenguangwang.2512830  checkris.pjfowler.1547965  checkris.pjfowler.482485   checkris.rka.3336314
+checkris.chenguangwang.2513034  checkris.pjfowler.1594075  checkris.pjfowler.482632   checkris.rka.3336834
+checkris.chenguangwang.2513220  checkris.pjfowler.1594263  checkris.pjfowler.482824   checkris.rka.3337003
+checkris.chenguangwang.2513397  checkris.pjfowler.1594454  checkris.pjfowler.483012   checkris.rka.3337189
+checkris.chenguangwang.2513596  checkris.pjfowler.1594617  checkris.pjfowler.483442   checkris.rka.3337357
+checkris.chenguangwang.2559678  checkris.pjfowler.1594903  checkris.pjfowler.483883   checkris.rka.3337528
+checkris.chenguangwang.2559849  checkris.pjfowler.1595096  checkris.pjfowler.484059   checkris.rka.3337724
+checkris.chenguangwang.2560284  checkris.pjfowler.1595272  checkris.pjfowler.484229   checkris.rka.3377547
+checkris.chenguangwang.2562523  checkris.pjfowler.1595641  checkris.pjfowler.484423   checkris.rka.3378220
+checkris.chenguangwang.2563396  checkris.pjfowler.1595843  checkris.pjfowler.484596   checkris.rka.3378699
+checkris.chenguangwang.2564545  checkris.pjfowler.1596009  checkris.pjfowler.484757   checkris.rka.3379488
+checkris.chenguangwang.2564729  checkris.pjfowler.1596193  checkris.pjfowler.485013   checkris.rka.3379832
+checkris.chenguangwang.2565018  checkris.pjfowler.1596373  checkris.pjfowler.48580    checkris.rka.3380592
+checkris.chenguangwang.2565228  checkris.pjfowler.1642377  checkris.pjfowler.48732    checkris.rka.3381209
+checkris.chenguangwang.2565404  checkris.pjfowler.1642538  checkris.pjfowler.48916    checkris.rka.3382262
+checkris.chenguangwang.2565585  checkris.pjfowler.1642746  checkris.pjfowler.49054    checkris.rka.3383050
+checkris.chenguangwang.2567168  checkris.pjfowler.1642881  checkris.pjfowler.49384    checkris.rka.3383572
+checkris.chenguangwang.2613414  checkris.pjfowler.1643060  checkris.pjfowler.49690    checkris.rka.3383744
+checkris.chenguangwang.2613590  checkris.pjfowler.1643248  checkris.pjfowler.49968    checkris.rka.3383921
+checkris.chenguangwang.2613821  checkris.pjfowler.1643426  checkris.pjfowler.50231    checkris.rka.3384089
+checkris.chenguangwang.2613998  checkris.pjfowler.1643584  checkris.pjfowler.50419    checkris.rka.3384104
+checkris.chenguangwang.2614416  checkris.pjfowler.1643789  checkris.pjfowler.50574    checkris.rka.3384256
+checkris.chenguangwang.2614608  checkris.pjfowler.1643950  checkris.pjfowler.50737    checkris.rka.3384540
+checkris.chenguangwang.2614793  checkris.pjfowler.1644243  checkris.pjfowler.50916    checkris.rka.3384616
+checkris.chenguangwang.2614963  checkris.pjfowler.1644422  checkris.pjfowler.530923   checkris.rka.3384707
+checkris.chenguangwang.2615328  checkris.pjfowler.1690424  checkris.pjfowler.531082   checkris.rka.3384889
+checkris.chenguangwang.2615516  checkris.pjfowler.1690587  checkris.pjfowler.531273   checkris.rka.3385063
+checkris.chenguangwang.2615701  checkris.pjfowler.1690789  checkris.pjfowler.531429   checkris.rka.3385230
+checkris.chenguangwang.2615892  checkris.pjfowler.1690977  checkris.pjfowler.531595   checkris.rka.3385267
+checkris.chenguangwang.2661963  checkris.pjfowler.1691291  checkris.pjfowler.531781   checkris.rka.3385400
+checkris.chenguangwang.2662135  checkris.pjfowler.1691656  checkris.pjfowler.531951   checkris.rka.3385585
+checkris.chenguangwang.2662520  checkris.pjfowler.1691869  checkris.pjfowler.532106   checkris.rka.3431435
+checkris.chenguangwang.2662798  checkris.pjfowler.1692052  checkris.pjfowler.532288   checkris.rka.3431577
+checkris.chenguangwang.2663065  checkris.pjfowler.1692248  checkris.pjfowler.532453   checkris.rka.3431609
+checkris.chenguangwang.2663626  checkris.pjfowler.1692447  checkris.pjfowler.532600   checkris.rka.3431790
+checkris.chenguangwang.2666102  checkris.pjfowler.1692664  checkris.pjfowler.532792   checkris.rka.3431958
+checkris.chenguangwang.2668770  checkris.pjfowler.1692874  checkris.pjfowler.578701   checkris.rka.3432132
+checkris.chenguangwang.2669081  checkris.pjfowler.1739074  checkris.pjfowler.578868   checkris.rka.3432245
+checkris.chenguangwang.2670270  checkris.pjfowler.1739316  checkris.pjfowler.579056   checkris.rka.3432307
+checkris.chenguangwang.2670596  checkris.pjfowler.1739534  checkris.pjfowler.579223   checkris.rka.3432474
+checkris.chenguangwang.2671104  checkris.pjfowler.1739765  checkris.pjfowler.579379   checkris.rka.3432645
+checkris.chenguangwang.2718121  checkris.pjfowler.1739941  checkris.pjfowler.579580   checkris.rka.3432720
+checkris.chenguangwang.2718599  checkris.pjfowler.1740298  checkris.pjfowler.579741   checkris.rka.3432831
+checkris.chenguangwang.2718855  checkris.pjfowler.1740478  checkris.pjfowler.579923   checkris.rka.3433000
+checkris.chenguangwang.2719244  checkris.pjfowler.1740657  checkris.pjfowler.580111   checkris.rka.3433319
+checkris.chenguangwang.2719428  checkris.pjfowler.1740865  checkris.pjfowler.580274   checkris.rka.3433395
+checkris.chenguangwang.2719633  checkris.pjfowler.1741032  checkris.pjfowler.580434   checkris.rka.3433582
+checkris.chenguangwang.2719819  checkris.pjfowler.1741267  checkris.pjfowler.580792   checkris.rka.3434194
+checkris.chenguangwang.2720095  checkris.pjfowler.1741453  checkris.pjfowler.626714   checkris.rka.3434957
+checkris.chenguangwang.2720336  checkris.pjfowler.1787468  checkris.pjfowler.627053   checkris.rka.3435287
+checkris.chenguangwang.2720515  checkris.pjfowler.1787642  checkris.pjfowler.627267   checkris.rka.3436140
+checkris.chenguangwang.2720700  checkris.pjfowler.1788021  checkris.pjfowler.627437   checkris.rka.3436964
+checkris.chenguangwang.2720829  checkris.pjfowler.1788187  checkris.pjfowler.627618   checkris.rka.3437173
+checkris.chenguangwang.2766818  checkris.pjfowler.1788377  checkris.pjfowler.627812   checkris.rka.3437415
+checkris.chenguangwang.2767000  checkris.pjfowler.1788571  checkris.pjfowler.627990   checkris.rka.3438315
+checkris.chenguangwang.2767312  checkris.pjfowler.1788753  checkris.pjfowler.628149   checkris.rka.3479436
+checkris.chenguangwang.2767604  checkris.pjfowler.1788898  checkris.pjfowler.628353   checkris.rka.3479605
+checkris.chenguangwang.2767797  checkris.pjfowler.1789099  checkris.pjfowler.628522   checkris.rka.3479780
+checkris.chenguangwang.2768011  checkris.pjfowler.1789266  checkris.pjfowler.628870   checkris.rka.3479952
+checkris.chenguangwang.2768186  checkris.pjfowler.1789432  checkris.pjfowler.629051   checkris.rka.3480241
+checkris.chenguangwang.2768467  checkris.pjfowler.1789632  checkris.pjfowler.674985   checkris.rka.3480414
+checkris.chenguangwang.2768672  checkris.pjfowler.1835786  checkris.pjfowler.675172   checkris.rka.3480582
+checkris.chenguangwang.2769051  checkris.pjfowler.1835961  checkris.pjfowler.675379   checkris.rka.3480753
+checkris.chenguangwang.2769252  checkris.pjfowler.1836378  checkris.pjfowler.675546   checkris.rka.3480934
+checkris.chenguangwang.2769470  checkris.pjfowler.1836548  checkris.pjfowler.675726   checkris.rka.3481099
+checkris.chenguangwang.2815549  checkris.pjfowler.1836729  checkris.pjfowler.675935   checkris.rka.3481265
+checkris.chenguangwang.2815750  checkris.pjfowler.1836919  checkris.pjfowler.676106   checkris.rka.3481454
+checkris.chenguangwang.2815969  checkris.pjfowler.1837108  checkris.pjfowler.676274   checkris.rka.3485190
+checkris.chenguangwang.2816171  checkris.pjfowler.1837304  checkris.pjfowler.676512   checkris.rka.3485521
+checkris.chenguangwang.2816388  checkris.pjfowler.1837508  checkris.pjfowler.676684   checkris.rka.3486626
+checkris.chenguangwang.2816599  checkris.pjfowler.1837731  checkris.pjfowler.676847   checkris.rka.3487473
+checkris.chenguangwang.2816980  checkris.pjfowler.1838017  checkris.pjfowler.677041   checkris.rka.3488351
+checkris.chenguangwang.2817161  checkris.pjfowler.1838213  checkris.pjfowler.722967   checkris.rka.3489085
+checkris.chenguangwang.2817381  checkris.pjfowler.1884227  checkris.pjfowler.723132   checkris.rka.3489524
+checkris.chenguangwang.2817566  checkris.pjfowler.1884401  checkris.pjfowler.723327   checkris.rka.3490446
+checkris.chenguangwang.2817876  checkris.pjfowler.1884604  checkris.pjfowler.723488   checkris.rka.3491136
+checkris.chenguangwang.2818079  checkris.pjfowler.1884782  checkris.pjfowler.723656   checkris.rka.3491666
+checkris.chenguangwang.2864156  checkris.pjfowler.1884952  checkris.pjfowler.723845   checkris.rka.3492021
+checkris.chenguangwang.2864350  checkris.pjfowler.1885148  checkris.pjfowler.724019   checkris.rka.3492270
+checkris.chenguangwang.2864675  checkris.pjfowler.1885328  checkris.pjfowler.724177   checkris.rka.3527312
+checkris.chenguangwang.2864863  checkris.pjfowler.1885595  checkris.pjfowler.724377   checkris.rka.3527480
+checkris.chenguangwang.2865157  checkris.pjfowler.1885807  checkris.pjfowler.724662   checkris.rka.3527658
+checkris.chenguangwang.2865883  checkris.pjfowler.1885991  checkris.pjfowler.724864   checkris.rka.3527953
+checkris.chenguangwang.2866232  checkris.pjfowler.1886174  checkris.pjfowler.725059   checkris.rka.3528642
+checkris.chenguangwang.2866413  checkris.pjfowler.1886377  checkris.pjfowler.771017   checkris.rka.3528929
+checkris.chenguangwang.2866623  checkris.pjfowler.1932402  checkris.pjfowler.771177   checkris.rka.3529213
+checkris.chenguangwang.2866965  checkris.pjfowler.1932583  checkris.pjfowler.771377   checkris.rka.3529385
+checkris.chenguangwang.2867154  checkris.pjfowler.1932789  checkris.pjfowler.771539   checkris.rka.3529812
+checkris.chenguangwang.2867458  checkris.pjfowler.1932972  checkris.pjfowler.771711   checkris.rka.3529978
+checkris.chenguangwang.2915006  checkris.pjfowler.1933146  checkris.pjfowler.771905   checkris.rka.3530155
+checkris.chenguangwang.2915195  checkris.pjfowler.1933358  checkris.pjfowler.772077   checkris.rka.3530455
+checkris.chenguangwang.2915406  checkris.pjfowler.1933535  checkris.pjfowler.772417   checkris.rka.3538386
+checkris.chenguangwang.2915602  checkris.pjfowler.1933713  checkris.pjfowler.772648   checkris.rka.3539318
+checkris.chenguangwang.2916116  checkris.pjfowler.1934248  checkris.pjfowler.772843   checkris.rka.3540262
+checkris.chenguangwang.2916612  checkris.pjfowler.1934431  checkris.pjfowler.773014   checkris.rka.3540942
+checkris.chenguangwang.2916809  checkris.pjfowler.1934876  checkris.pjfowler.773199   checkris.rka.3550390
+checkris.chenguangwang.2917104  checkris.pjfowler.1935072  checkris.pjfowler.819316   checkris.rka.3551396
+checkris.chenguangwang.2917351  checkris.pjfowler.194275   checkris.pjfowler.819482   checkris.rka.3552330
+checkris.chenguangwang.2917619  checkris.pjfowler.194443   checkris.pjfowler.819636   checkris.rka.3553555
+checkris.chenguangwang.2917829  checkris.pjfowler.194634   checkris.pjfowler.819806   checkris.rka.3554381
+checkris.chenguangwang.2918039  checkris.pjfowler.194805   checkris.pjfowler.819972   checkris.rka.3555183
+checkris.chenguangwang.2964240  checkris.pjfowler.195129   checkris.pjfowler.820163   checkris.rka.3555636
+checkris.chenguangwang.2964517  checkris.pjfowler.195322   checkris.pjfowler.820329   checkris.rka.3555916
+checkris.chenguangwang.2964738  checkris.pjfowler.195503   checkris.pjfowler.820494   checkris.rka.3576458
+checkris.chenguangwang.2964949  checkris.pjfowler.195688   checkris.pjfowler.820694   checkris.rka.3576837
+checkris.chenguangwang.2965586  checkris.pjfowler.195876   checkris.pjfowler.820858   checkris.rka.3577008
+checkris.chenguangwang.2966354  checkris.pjfowler.196034   checkris.pjfowler.821016   checkris.rka.3577175
+checkris.chenguangwang.2967498  checkris.pjfowler.196194   checkris.pjfowler.821392   checkris.rka.3577441
+checkris.chenguangwang.2968375  checkris.pjfowler.196535   checkris.pjfowler.867330   checkris.rka.3577836
+checkris.chenguangwang.2968782  checkris.pjfowler.1981149  checkris.pjfowler.867493   checkris.rka.3578035
+checkris.chenguangwang.2969486  checkris.pjfowler.1981325  checkris.pjfowler.867690   checkris.rka.3578318
+checkris.chenguangwang.2971326  checkris.pjfowler.1981531  checkris.pjfowler.867854   checkris.rka.3578500
+checkris.chenguangwang.2972075  checkris.pjfowler.1981729  checkris.pjfowler.868014   checkris.rka.3578680
+checkris.chenguangwang.3018933  checkris.pjfowler.1981916  checkris.pjfowler.868203   checkris.rka.3578851
+checkris.chenguangwang.3019276  checkris.pjfowler.1982189  checkris.pjfowler.868557   checkris.rka.3579036
+checkris.chenguangwang.3019640  checkris.pjfowler.1982382  checkris.pjfowler.868740   checkris.rka.3602017
+checkris.chenguangwang.3019834  checkris.pjfowler.1982564  checkris.pjfowler.868946   checkris.rka.3602182
+checkris.chenguangwang.3021106  checkris.pjfowler.1982781  checkris.pjfowler.869114   checkris.rka.3602354
+checkris.chenguangwang.3021501  checkris.pjfowler.1982976  checkris.pjfowler.869289   checkris.rka.3602624
+checkris.chenguangwang.3021948  checkris.pjfowler.1983152  checkris.pjfowler.869471   checkris.rka.3604197
+checkris.chenguangwang.3022820  checkris.pjfowler.1983369  checkris.pjfowler.915411   checkris.rka.3604462
+checkris.chenguangwang.3023404  checkris.pjfowler.2029391  checkris.pjfowler.915573   checkris.rka.3604636
+checkris.chenguangwang.3023773  checkris.pjfowler.2029575  checkris.pjfowler.915766   checkris.rka.3604972
+checkris.chenguangwang.3023965  checkris.pjfowler.2029784  checkris.pjfowler.915926   checkris.rka.3605136
+checkris.chenguangwang.3024311  checkris.pjfowler.2029966  checkris.pjfowler.916086   checkris.rka.3605297
+checkris.chenguangwang.3070475  checkris.pjfowler.2030142  checkris.pjfowler.916326   checkris.rka.3605463
+checkris.chenguangwang.3070659  checkris.pjfowler.2030345  checkris.pjfowler.916482   checkris.rka.3605661
+checkris.chenguangwang.3071118  checkris.pjfowler.2030528  checkris.pjfowler.916643   checkris.rka.3624924
+checkris.chenguangwang.3071407  checkris.pjfowler.2030700  checkris.pjfowler.916836   checkris.rka.3625237
+checkris.chenguangwang.3071643  checkris.pjfowler.2030911  checkris.pjfowler.917002   checkris.rka.3625416
+checkris.chenguangwang.3072011  checkris.pjfowler.2031080  checkris.pjfowler.917167   checkris.rka.3625602
+checkris.chenguangwang.3072692  checkris.pjfowler.2031266  checkris.pjfowler.917351   checkris.rka.3625765
+checkris.chenguangwang.3073112  checkris.pjfowler.2031460  checkris.pjfowler.963291   checkris.rka.3625940
+checkris.chenguangwang.3073538  checkris.pjfowler.2077486  checkris.pjfowler.963455   checkris.rka.3626113
+checkris.chenguangwang.3073886  checkris.pjfowler.2077661  checkris.pjfowler.963644   checkris.rka.3626285
+checkris.chenguangwang.3076242  checkris.pjfowler.2077888  checkris.pjfowler.963810   checkris.rka.3626461
+checkris.chenguangwang.3076765  checkris.pjfowler.2078066  checkris.pjfowler.963969   checkris.rka.3626626
+checkris.chenguangwang.3123799  checkris.pjfowler.2078242  checkris.pjfowler.964158   checkris.rka.3626796
+checkris.chenguangwang.3124164  checkris.pjfowler.2078448  checkris.pjfowler.964331   checkris.rka.3627096
+checkris.chenguangwang.3124930  checkris.pjfowler.2078626  checkris.pjfowler.964488   checkris.rka.3652847
+checkris.chenguangwang.3125639  checkris.pjfowler.2078855  checkris.pjfowler.964680   checkris.rka.3663599
+checkris.chenguangwang.3126410  checkris.pjfowler.2079063  checkris.pjfowler.964855   checkris.rka.3663817
+checkris.chenguangwang.3126791  checkris.pjfowler.2079244  checkris.pjfowler.965023   checkris.rka.3664362
+checkris.chenguangwang.3127398  checkris.pjfowler.2079382  checkris.pjfowler.965201   checkris.rka.3664716
+checkris.chenguangwang.3127670  checkris.pjfowler.2079587  checkris.pjfowler.97017    checkris.rka.3665170
+checkris.chenguangwang.3127905  checkris.pjfowler.2125610  checkris.pjfowler.97190    checkris.rka.3666154
+checkris.chenguangwang.3128151  checkris.pjfowler.2125789  checkris.pjfowler.97611    checkris.rka.3666355
+checkris.chenguangwang.3128690  checkris.pjfowler.2125996  checkris.pjfowler.97979    checkris.rka.3666795
+checkris.chenguangwang.3129351  checkris.pjfowler.2126176  checkris.pjfowler.98135    checkris.rka.3666982
+checkris.chenguangwang.3176124  checkris.pjfowler.2126351  checkris.pjfowler.98318    checkris.rka.3667367
+checkris.chenguangwang.3176924  checkris.pjfowler.2126561  checkris.pjfowler.98484    checkris.rka.3673063
+checkris.chenguangwang.3177610  checkris.pjfowler.2126736  checkris.pjfowler.98693    checkris.rka.3673590
+checkris.chenguangwang.3178127  checkris.pjfowler.2126913  checkris.pjfowler.98890    checkris.rka.3673762
+checkris.chenguangwang.3178300  checkris.pjfowler.2127115  checkris.pjfowler.99046    checkris.rka.3673929
+checkris.chenguangwang.3178605  checkris.pjfowler.2127296  checkris.pjfowler.99363    checkris.rka.3674215
+checkris.chenguangwang.3179109  checkris.pjfowler.2127471  checkris.pjfowler.99928    checkris.rka.3674395
+checkris.chenguangwang.3179462  checkris.pjfowler.2127671  checkris.rka.1011150       checkris.rka.3674564
+checkris.chenguangwang.3179761  checkris.pjfowler.2173699  checkris.rka.1011304       checkris.rka.3674734
+checkris.chenguangwang.3179983  checkris.pjfowler.2173873  checkris.rka.1011495       checkris.rka.3674908
+checkris.chenguangwang.3180320  checkris.pjfowler.2174085  checkris.rka.1011666       checkris.rka.3675076
+checkris.chenguangwang.3180633  checkris.pjfowler.2174261  checkris.rka.1011830       checkris.rka.3675244
+checkris.chenguangwang.3226795  checkris.pjfowler.2174438  checkris.rka.1012025       checkris.rka.3675432
+checkris.chenguangwang.3226983  checkris.pjfowler.2174641  checkris.rka.1012190       checkris.rka.3713613
+checkris.chenguangwang.3227476  checkris.pjfowler.2174937  checkris.rka.1012358       checkris.rka.3713810
+checkris.chenguangwang.3227788  checkris.pjfowler.2175116  checkris.rka.1012546       checkris.rka.3714204
+checkris.chenguangwang.3228703  checkris.pjfowler.2175333  checkris.rka.1012712       checkris.rka.3714403
+checkris.chenguangwang.3229208  checkris.pjfowler.2175514  checkris.rka.1012880       checkris.rka.3714589
+checkris.chenguangwang.3229730  checkris.pjfowler.2175695  checkris.rka.1013065       checkris.rka.3714801
+checkris.chenguangwang.3230553  checkris.pjfowler.2175876  checkris.rka.1059011       checkris.rka.3715251
+checkris.chenguangwang.3230976  checkris.pjfowler.2221908  checkris.rka.1059174       checkris.rka.3715557
+checkris.chenguangwang.3231277  checkris.pjfowler.2222079  checkris.rka.1059368       checkris.rka.3715988
+checkris.chenguangwang.3231731  checkris.pjfowler.2222290  checkris.rka.1059534       checkris.rka.3716183
+checkris.chenguangwang.3232141  checkris.pjfowler.2222463  checkris.rka.1059695       checkris.rka.3716397
+checkris.chenguangwang.3241234  checkris.pjfowler.2222642  checkris.rka.1059887       checkris.rka.3717031
+checkris.chenguangwang.3241440  checkris.pjfowler.2222844  checkris.rka.1060051       checkris.rka.3721300
+checkris.chenguangwang.3278265  checkris.pjfowler.2223027  checkris.rka.1060218       checkris.rka.3721467
+checkris.chenguangwang.3278494  checkris.pjfowler.2223199  checkris.rka.1060408       checkris.rka.3721644
+checkris.chenguangwang.3278744  checkris.pjfowler.2223407  checkris.rka.1060576       checkris.rka.3721819
+checkris.chenguangwang.3278950  checkris.pjfowler.2223600  checkris.rka.1060739       checkris.rka.3721988
+checkris.chenguangwang.3279155  checkris.pjfowler.2223779  checkris.rka.1060924       checkris.rka.3722155
+checkris.chenguangwang.3279817  checkris.pjfowler.2223973  checkris.rka.1106882       checkris.rka.3722321
+checkris.chenguangwang.3280497  checkris.pjfowler.2270005  checkris.rka.1107045       checkris.rka.3722492
+checkris.chenguangwang.3280713  checkris.pjfowler.2270185  checkris.rka.1107236       checkris.rka.3722861
+checkris.chenguangwang.3280949  checkris.pjfowler.2270387  checkris.rka.1107402       checkris.rka.3723027
+checkris.chenguangwang.3281169  checkris.pjfowler.2270568  checkris.rka.1107565       checkris.rka.3723196
+checkris.chenguangwang.3281361  checkris.pjfowler.2270740  checkris.rka.1107754       checkris.rka.3723386
+checkris.chenguangwang.3281585  checkris.pjfowler.2270940  checkris.rka.1107919       checkris.rka.3763294
+checkris.chenguangwang.3287291  checkris.pjfowler.2271121  checkris.rka.1108081       checkris.rka.3763489
+checkris.chenguangwang.3287449  checkris.pjfowler.2271291  checkris.rka.1108272       checkris.rka.3763875
+checkris.chenguangwang.3287662  checkris.pjfowler.2271500  checkris.rka.1108437       checkris.rka.3764355
+checkris.chenguangwang.3287833  checkris.pjfowler.2271674  checkris.rka.1108604       checkris.rka.3764641
+checkris.chenguangwang.3288000  checkris.pjfowler.2271857  checkris.rka.1108788       checkris.rka.3764964
+checkris.chenguangwang.3288174  checkris.pjfowler.2272058  checkris.rka.1154737       checkris.rka.3765168
+checkris.chenguangwang.3288340  checkris.pjfowler.2318094  checkris.rka.1154905       checkris.rka.3765359
+checkris.chenguangwang.3288511  checkris.pjfowler.2318273  checkris.rka.1155096       checkris.rka.3769267
+checkris.chenguangwang.3288690  checkris.pjfowler.2318478  checkris.rka.1155262       checkris.rka.3769434
+checkris.chenguangwang.3288917  checkris.pjfowler.2318654  checkris.rka.1155424       checkris.rka.3769609
+checkris.chenguangwang.3289425  checkris.pjfowler.2318828  checkris.rka.1155798       checkris.rka.3769780
+checkris.chenguangwang.3289609  checkris.pjfowler.2319030  checkris.rka.1155974       checkris.rka.3769947
+checkris.chenguangwang.3327925  checkris.pjfowler.2319214  checkris.rka.1156157       checkris.rka.3770123
+checkris.chenguangwang.3328242  checkris.pjfowler.2319381  checkris.rka.1156349       checkris.rka.3770298
+checkris.chenguangwang.3328526  checkris.pjfowler.2319599  checkris.rka.1156512       checkris.rka.3770470
+checkris.chenguangwang.3328710  checkris.pjfowler.2319775  checkris.rka.1156675       checkris.rka.3770648
+checkris.chenguangwang.3328912  checkris.pjfowler.2319951  checkris.rka.1156780       checkris.rka.3770814
+checkris.chenguangwang.3329240  checkris.pjfowler.2320150  checkris.rka.1202616       checkris.rka.3770986
+checkris.chenguangwang.3329799  checkris.pjfowler.2366293  checkris.rka.1202707       checkris.rka.3771180
+checkris.chenguangwang.3330114  checkris.pjfowler.2366451  checkris.rka.1202948       checkris.rka.3817055
+checkris.chenguangwang.3330331  checkris.pjfowler.2366737  checkris.rka.1203112       checkris.rka.3817224
+checkris.chenguangwang.3330516  checkris.pjfowler.2366890  checkris.rka.1203272       checkris.rka.3817486
+checkris.chenguangwang.3330895  checkris.pjfowler.2367044  checkris.rka.1203455       checkris.rka.3817658
+checkris.chenguangwang.3331249  checkris.pjfowler.2367210  checkris.rka.1203909       checkris.rka.3817826
+checkris.chenguangwang.3335463  checkris.pjfowler.2367362  checkris.rka.1205208       checkris.rka.3818013
+checkris.chenguangwang.3335632  checkris.pjfowler.2367687  checkris.rka.1205616       checkris.rka.3818178
+checkris.chenguangwang.3335807  checkris.pjfowler.2367854  checkris.rka.1205912       checkris.rka.3818459
+checkris.chenguangwang.3335973  checkris.pjfowler.2368012  checkris.rka.1206339       checkris.rka.3818635
+checkris.chenguangwang.3336141  checkris.pjfowler.2368168  checkris.rka.1206555       checkris.rka.3818761
+checkris.chenguangwang.3336314  checkris.pjfowler.2368343  checkris.rka.1252520       checkris.rka.3818931
+checkris.chenguangwang.3336834  checkris.pjfowler.2414365  checkris.rka.1252880       checkris.rka.3819132
+checkris.chenguangwang.3337003  checkris.pjfowler.2414525  checkris.rka.1253076       checkris.rka.3865017
+checkris.chenguangwang.3337189  checkris.pjfowler.2414657  checkris.rka.1253237       checkris.rka.3865346
+checkris.chenguangwang.3337357  checkris.pjfowler.2414816  checkris.rka.1253403       checkris.rka.3865527
+checkris.chenguangwang.3337528  checkris.pjfowler.2414965  checkris.rka.1253588       checkris.rka.3865692
+checkris.chenguangwang.3337724  checkris.pjfowler.2415137  checkris.rka.1253750       checkris.rka.3865861
+checkris.chenguangwang.3377547  checkris.pjfowler.2415617  checkris.rka.1253897       checkris.rka.3866035
+checkris.chenguangwang.3378220  checkris.pjfowler.2415777  checkris.rka.1254071       checkris.rka.3866204
+checkris.chenguangwang.3378699  checkris.pjfowler.2415951  checkris.rka.1254237       checkris.rka.3866375
+checkris.chenguangwang.3379488  checkris.pjfowler.2416103  checkris.rka.1254398       checkris.rka.580792
+checkris.chenguangwang.3379832  checkris.pjfowler.2416376  checkris.rka.1254856       checkris.rka.626714
+checkris.chenguangwang.3380592  checkris.pjfowler.2416662  checkris.rka.1300986       checkris.rka.627053
+checkris.chenguangwang.3381209  checkris.pjfowler.242439   checkris.rka.1301464       checkris.rka.627267
+checkris.chenguangwang.3382262  checkris.pjfowler.242595   checkris.rka.1301809       checkris.rka.627437
+checkris.chenguangwang.3383050  checkris.pjfowler.242786   checkris.rka.1301984       checkris.rka.627618
+checkris.chenguangwang.3383572  checkris.pjfowler.242958   checkris.rka.1302149       checkris.rka.627812
+checkris.chenguangwang.3383744  checkris.pjfowler.243128   checkris.rka.1302352       checkris.rka.627990
+checkris.chenguangwang.3383921  checkris.pjfowler.243312   checkris.rka.1302529       checkris.rka.628149
+checkris.chenguangwang.3384089  checkris.pjfowler.243477   checkris.rka.1302696       checkris.rka.628353
+checkris.chenguangwang.3384104  checkris.pjfowler.243644   checkris.rka.1303014       checkris.rka.628522
+checkris.chenguangwang.3384256  checkris.pjfowler.243891   checkris.rka.1303189       checkris.rka.628870
+checkris.chenguangwang.3384540  checkris.pjfowler.244050   checkris.rka.1303356       checkris.rka.629051
+checkris.chenguangwang.3384616  checkris.pjfowler.244218   checkris.rka.1303711       checkris.rka.674985
+checkris.chenguangwang.3384707  checkris.pjfowler.244398   checkris.rka.1350168       checkris.rka.675172
+checkris.chenguangwang.3384889  checkris.pjfowler.2462791  checkris.rka.1350341       checkris.rka.675379
+checkris.chenguangwang.3385063  checkris.pjfowler.2463199  checkris.rka.1350537       checkris.rka.675546
+checkris.chenguangwang.3385230  checkris.pjfowler.2463370  checkris.rka.1350710       checkris.rka.675726
+checkris.chenguangwang.3385267  checkris.pjfowler.2463628  checkris.rka.1350877       checkris.rka.675935
+checkris.chenguangwang.3385400  checkris.pjfowler.2463780  checkris.rka.1351081       checkris.rka.676106
+checkris.chenguangwang.3385585  checkris.pjfowler.2463955  checkris.rka.1351254       checkris.rka.676274
+checkris.chenguangwang.3431435  checkris.pjfowler.2464119  checkris.rka.1351424       checkris.rka.676512
+checkris.chenguangwang.3431577  checkris.pjfowler.2464275  checkris.rka.1351616       checkris.rka.676684
+checkris.chenguangwang.3431609  checkris.pjfowler.2464431  checkris.rka.1351949       checkris.rka.676847
+checkris.chenguangwang.3431790  checkris.pjfowler.2464588  checkris.rka.1352123       checkris.rka.677041
+checkris.chenguangwang.3431958  checkris.pjfowler.2464774  checkris.rka.1352313       checkris.rka.722967
+checkris.chenguangwang.3432132  checkris.pjfowler.2464968  checkris.rka.1398307       checkris.rka.723132
+checkris.chenguangwang.3432245  checkris.pjfowler.2511022  checkris.rka.1398537       checkris.rka.723327
+checkris.chenguangwang.3432307  checkris.pjfowler.2511487  checkris.rka.1399142       checkris.rka.723488
+checkris.chenguangwang.3432474  checkris.pjfowler.2511695  checkris.rka.1399327       checkris.rka.723656
+checkris.chenguangwang.3432645  checkris.pjfowler.2512034  checkris.rka.1399489       checkris.rka.723845
+checkris.chenguangwang.3432720  checkris.pjfowler.2512207  checkris.rka.1399687       checkris.rka.724019
+checkris.chenguangwang.3432831  checkris.pjfowler.2512422  checkris.rka.1399853       checkris.rka.724177
+checkris.chenguangwang.3433000  checkris.pjfowler.2512651  checkris.rka.1400024       checkris.rka.724377
+checkris.chenguangwang.3433319  checkris.pjfowler.2512830  checkris.rka.1400226       checkris.rka.724662
+checkris.chenguangwang.3433395  checkris.pjfowler.2513034  checkris.rka.1400490       checkris.rka.724864
+checkris.chenguangwang.3433582  checkris.pjfowler.2513220  checkris.rka.1400617       checkris.rka.725059
+checkris.chenguangwang.3434194  checkris.pjfowler.2513397  checkris.rka.1400786       checkris.rka.771017
+checkris.chenguangwang.3434957  checkris.pjfowler.2513596  checkris.rka.1446775       checkris.rka.771177
+checkris.chenguangwang.3435287  checkris.pjfowler.2559678  checkris.rka.1447083       checkris.rka.771377
+checkris.chenguangwang.3436140  checkris.pjfowler.2559849  checkris.rka.1447442       checkris.rka.771539
+checkris.chenguangwang.3436964  checkris.pjfowler.2560284  checkris.rka.1447788       checkris.rka.771711
+checkris.chenguangwang.3437173  checkris.pjfowler.2562523  checkris.rka.1448141       checkris.rka.771905
+checkris.chenguangwang.3437415  checkris.pjfowler.2563396  checkris.rka.1448406       checkris.rka.772077
+checkris.chenguangwang.3438315  checkris.pjfowler.2564545  checkris.rka.1449015       checkris.rka.772417
+checkris.chenguangwang.3479436  checkris.pjfowler.2564729  checkris.rka.1449194       checkris.rka.772648
+checkris.chenguangwang.3479605  checkris.pjfowler.2565018  checkris.rka.1449403       checkris.rka.772843
+checkris.chenguangwang.3479780  checkris.pjfowler.2565228  checkris.rka.1449615       checkris.rka.773014
+checkris.chenguangwang.3479952  checkris.pjfowler.2565404  checkris.rka.1450022       checkris.rka.773199
+checkris.chenguangwang.3480241  checkris.pjfowler.2565585  checkris.rka.1450632       checkris.rka.819316
+checkris.chenguangwang.3480414  checkris.pjfowler.2567168  checkris.rka.1496733       checkris.rka.819482
+checkris.chenguangwang.3480582  checkris.pjfowler.2613414  checkris.rka.1497061       checkris.rka.819636
+checkris.chenguangwang.3480753  checkris.pjfowler.2613590  checkris.rka.1497279       checkris.rka.819806
+checkris.chenguangwang.3480934  checkris.pjfowler.2613821  checkris.rka.1497566       checkris.rka.819972
+checkris.chenguangwang.3481099  checkris.pjfowler.2613998  checkris.rka.1497936       checkris.rka.820163
+checkris.chenguangwang.3481265  checkris.pjfowler.2614416  checkris.rka.1498156       checkris.rka.820329
+checkris.chenguangwang.3481454  checkris.pjfowler.2614608  checkris.rka.1498341       checkris.rka.820494
+checkris.chenguangwang.3485190  checkris.pjfowler.2614793  checkris.rka.1498506       checkris.rka.820694
+checkris.chenguangwang.3485521  checkris.pjfowler.2614963  checkris.rka.1498895       checkris.rka.820858
+checkris.chenguangwang.3486626  checkris.pjfowler.2615328  checkris.rka.1499431       checkris.rka.821016
+checkris.chenguangwang.3487473  checkris.pjfowler.2615516  checkris.rka.1499633       checkris.rka.821392
+checkris.chenguangwang.3488351  checkris.pjfowler.2615701  checkris.rka.1499817       checkris.rka.867330
+checkris.chenguangwang.3489085  checkris.pjfowler.2615892  checkris.rka.1545811       checkris.rka.867493
+checkris.chenguangwang.3489524  checkris.pjfowler.2661963  checkris.rka.1545978       checkris.rka.867690
+checkris.chenguangwang.3490446  checkris.pjfowler.2662135  checkris.rka.1546212       checkris.rka.867854
+checkris.chenguangwang.3491136  checkris.pjfowler.2662520  checkris.rka.1546381       checkris.rka.868014
+checkris.chenguangwang.3491666  checkris.pjfowler.2662798  checkris.rka.1546562       checkris.rka.868203
+checkris.chenguangwang.3492021  checkris.pjfowler.2663065  checkris.rka.1546865       checkris.rka.868557
+checkris.chenguangwang.3492270  checkris.pjfowler.2663626  checkris.rka.1547051       checkris.rka.868740
+checkris.chenguangwang.3527312  checkris.pjfowler.2666102  checkris.rka.1547217       checkris.rka.868946
+checkris.chenguangwang.3527480  checkris.pjfowler.2668770  checkris.rka.1547426       checkris.rka.869114
+checkris.chenguangwang.3527658  checkris.pjfowler.2669081  checkris.rka.1547595       checkris.rka.869289
+checkris.chenguangwang.3527953  checkris.pjfowler.2670270  checkris.rka.1547714       checkris.rka.869471
+checkris.chenguangwang.3528642  checkris.pjfowler.2670596  checkris.rka.1547965       checkris.rka.915411
+checkris.chenguangwang.3528929  checkris.pjfowler.2671104  checkris.rka.1594075       checkris.rka.915573
+checkris.chenguangwang.3529213  checkris.pjfowler.2700     checkris.rka.1594263       checkris.rka.915766
+checkris.chenguangwang.3529385  checkris.pjfowler.2718121  checkris.rka.1594454       checkris.rka.915926
+checkris.chenguangwang.3529812  checkris.pjfowler.2718599  checkris.rka.1594617       checkris.rka.916086
+checkris.chenguangwang.3529978  checkris.pjfowler.2718855  checkris.rka.1594903       checkris.rka.916326
+checkris.chenguangwang.3530155  checkris.pjfowler.2719244  checkris.rka.1595096       checkris.rka.916482
+checkris.chenguangwang.3530455  checkris.pjfowler.2719428  checkris.rka.1595272       checkris.rka.916643
+checkris.chenguangwang.3538386  checkris.pjfowler.2719633  checkris.rka.1595641       checkris.rka.916836
+checkris.chenguangwang.3539318  checkris.pjfowler.2719819  checkris.rka.1595843       checkris.rka.917002
+checkris.chenguangwang.3540262  checkris.pjfowler.2720095  checkris.rka.1596009       checkris.rka.917167
+checkris.chenguangwang.3540942  checkris.pjfowler.2720336  checkris.rka.1596193       checkris.rka.917351
+checkris.chenguangwang.3550390  checkris.pjfowler.2720515  checkris.rka.1596373       checkris.rka.963291
+checkris.chenguangwang.3551396  checkris.pjfowler.2720700  checkris.rka.1642377       checkris.rka.963455
+checkris.chenguangwang.3552330  checkris.pjfowler.2720829  checkris.rka.1642538       checkris.rka.963644
+checkris.chenguangwang.3553555  checkris.pjfowler.2766818  checkris.rka.1642746       checkris.rka.963810
+checkris.chenguangwang.3554381  checkris.pjfowler.2767000  checkris.rka.1642881       checkris.rka.963969
+checkris.chenguangwang.3555183  checkris.pjfowler.2767312  checkris.rka.1643060       checkris.rka.964158
+checkris.chenguangwang.3555636  checkris.pjfowler.2767604  checkris.rka.1643248       checkris.rka.964331
+checkris.chenguangwang.3555916  checkris.pjfowler.2767797  checkris.rka.1643426       checkris.rka.964488
+checkris.chenguangwang.3576458  checkris.pjfowler.2768011  checkris.rka.1643584       checkris.rka.964680
+checkris.chenguangwang.3576837  checkris.pjfowler.2768186  checkris.rka.1643789       checkris.rka.964855
+checkris.chenguangwang.3577008  checkris.pjfowler.2768467  checkris.rka.1643950       checkris.rka.965023
+checkris.chenguangwang.3577175  checkris.pjfowler.2768672  checkris.rka.1644243       checkris.rka.965201
+checkris.chenguangwang.3577441  checkris.pjfowler.2769051  checkris.rka.1644422       checkris.sharout.3241234
+checkris.chenguangwang.3577836  checkris.pjfowler.2769252  checkris.rka.1690424       checkris.sharout.3241440
+checkris.chenguangwang.3578035  checkris.pjfowler.2769470  checkris.rka.1690587       checkris.sharout.3287291
+checkris.chenguangwang.3578318  checkris.pjfowler.2815549  checkris.rka.1690789       checkris.sharout.3287449
+checkris.chenguangwang.3578500  checkris.pjfowler.2815750  checkris.rka.1690977       checkris.sharout.3287662
+checkris.chenguangwang.3578680  checkris.pjfowler.2815969  checkris.rka.1691291       checkris.sharout.3287833
+checkris.chenguangwang.3578851  checkris.pjfowler.2816171  checkris.rka.1691656       checkris.sharout.3288000
+checkris.chenguangwang.3579036  checkris.pjfowler.2816388  checkris.rka.1691869       checkris.sharout.3288174
+checkris.chenguangwang.3602017  checkris.pjfowler.2816599  checkris.rka.1692052       checkris.sharout.3288340
+checkris.chenguangwang.3602182  checkris.pjfowler.2816980  checkris.rka.1692248       checkris.sharout.3288511
+checkris.chenguangwang.3602354  checkris.pjfowler.2817161  checkris.rka.1692447       checkris.sharout.3288690
+checkris.chenguangwang.3602624  checkris.pjfowler.2817381  checkris.rka.1692664       checkris.sharout.3288917
+checkris.chenguangwang.3604197  checkris.pjfowler.2817566  checkris.rka.1692874       checkris.sharout.3289425
+checkris.chenguangwang.3604462  checkris.pjfowler.2817876  checkris.rka.1739074       checkris.sharout.3289609
+checkris.chenguangwang.3604636  checkris.pjfowler.2818079  checkris.rka.1739316       checkris.sharout.3335463
+checkris.chenguangwang.3604972  checkris.pjfowler.2864156  checkris.rka.1739534       checkris.sharout.3335632
+checkris.chenguangwang.3605136  checkris.pjfowler.2864350  checkris.rka.1739765       checkris.sharout.3335807
+checkris.chenguangwang.3605297  checkris.pjfowler.2864675  checkris.rka.1739941       checkris.sharout.3335973
+checkris.chenguangwang.3605463  checkris.pjfowler.2864863  checkris.rka.1740298       checkris.sharout.3336141
+checkris.chenguangwang.3605661  checkris.pjfowler.2865157  checkris.rka.1740478       checkris.sharout.3336314
+checkris.chenguangwang.3624924  checkris.pjfowler.2865883  checkris.rka.1740657       checkris.sharout.3336834
+checkris.chenguangwang.3625237  checkris.pjfowler.2866232  checkris.rka.1740865       checkris.sharout.3337003
+checkris.chenguangwang.3625416  checkris.pjfowler.2866413  checkris.rka.1741032       checkris.sharout.3337189
+checkris.chenguangwang.3625602  checkris.pjfowler.2866623  checkris.rka.1741267       checkris.sharout.3337357
+checkris.chenguangwang.3625765  checkris.pjfowler.2866965  checkris.rka.1741453       checkris.sharout.3337528
+checkris.chenguangwang.3625940  checkris.pjfowler.2867154  checkris.rka.1787468       checkris.sharout.3337724
+checkris.chenguangwang.3626113  checkris.pjfowler.2867458  checkris.rka.1787642       checkris.sharout.3383572
+checkris.chenguangwang.3626285  checkris.pjfowler.290297   checkris.rka.1788021       checkris.sharout.3383744
+checkris.chenguangwang.3626461  checkris.pjfowler.290457   checkris.rka.1788187       checkris.sharout.3383921
+checkris.chenguangwang.3626626  checkris.pjfowler.290654   checkris.rka.1788377       checkris.sharout.3384089
+checkris.chenguangwang.3626796  checkris.pjfowler.290814   checkris.rka.1788571       checkris.sharout.3384256
+checkris.chenguangwang.3627096  checkris.pjfowler.290978   checkris.rka.1788753       checkris.sharout.3384540
+checkris.chenguangwang.3652847  checkris.pjfowler.291163   checkris.rka.1788898       checkris.sharout.3384707
+checkris.chenguangwang.3663599  checkris.pjfowler.2915006  checkris.rka.1789099       checkris.sharout.3384889
+checkris.chenguangwang.3663817  checkris.pjfowler.2915195  checkris.rka.1789266       checkris.sharout.3385063
+checkris.chenguangwang.3664362  checkris.pjfowler.291522   checkris.rka.1789432       checkris.sharout.3385230
+checkris.chenguangwang.3664716  checkris.pjfowler.2915406  checkris.rka.1789632       checkris.sharout.3385400
+checkris.chenguangwang.3665170  checkris.pjfowler.2915602  checkris.rka.1835786       checkris.sharout.3385585
+checkris.chenguangwang.3666154  checkris.pjfowler.2916116  checkris.rka.1835961       checkris.sharout.3431435
+checkris.chenguangwang.3666355  checkris.pjfowler.2916612  checkris.rka.1836378       checkris.sharout.3431609
+checkris.chenguangwang.3666795  checkris.pjfowler.2916809  checkris.rka.1836548       checkris.sharout.3431790
+checkris.chenguangwang.3666982  checkris.pjfowler.291682   checkris.rka.1836729       checkris.sharout.3431958
+checkris.chenguangwang.3667367  checkris.pjfowler.2917104  checkris.rka.1836919       checkris.sharout.3432132
+checkris.chenguangwang.3673063  checkris.pjfowler.2917351  checkris.rka.1837108       checkris.sharout.3432307
+checkris.chenguangwang.3673590  checkris.pjfowler.2917619  checkris.rka.1837304       checkris.sharout.3432474
+checkris.chenguangwang.3673762  checkris.pjfowler.2917829  checkris.rka.1837508       checkris.sharout.3432645
+checkris.chenguangwang.3673929  checkris.pjfowler.2918039  checkris.rka.1837731       checkris.sharout.3432831
+checkris.chenguangwang.3674215  checkris.pjfowler.292012   checkris.rka.1838017       checkris.sharout.3433000
+checkris.chenguangwang.3674395  checkris.pjfowler.292180   checkris.rka.1838213       checkris.sharout.3433395
+checkris.chenguangwang.3674564  checkris.pjfowler.292461   checkris.rka.1884227       checkris.sharout.3433582
+checkris.chenguangwang.3674734  checkris.pjfowler.292647   checkris.rka.1884401       checkris.sharout.3479436
+checkris.chenguangwang.3674908  checkris.pjfowler.2964240  checkris.rka.1884604       checkris.sharout.3479605
+checkris.chenguangwang.3675076  checkris.pjfowler.2964517  checkris.rka.1884782       checkris.sharout.3479780
+checkris.chenguangwang.3675244  checkris.pjfowler.2964738  checkris.rka.1884952       checkris.sharout.3479952
+checkris.chenguangwang.3675432  checkris.pjfowler.2964949  checkris.rka.1885148       checkris.sharout.3480241
+checkris.chenguangwang.3713613  checkris.pjfowler.2965586  checkris.rka.1885328       checkris.sharout.3480414
+checkris.chenguangwang.3713810  checkris.pjfowler.2966354  checkris.rka.1885595       checkris.sharout.3480582
+checkris.chenguangwang.3714204  checkris.pjfowler.2967498  checkris.rka.1885807       checkris.sharout.3480753
+checkris.chenguangwang.3714403  checkris.pjfowler.2968375  checkris.rka.1885991       checkris.sharout.3480934
+checkris.chenguangwang.3714589  checkris.pjfowler.2968782  checkris.rka.1886174       checkris.sharout.3481099
+checkris.chenguangwang.3714801  checkris.pjfowler.2969486  checkris.rka.1886377       checkris.sharout.3481265
+checkris.chenguangwang.3715251  checkris.pjfowler.2971326  checkris.rka.1932402       checkris.sharout.3481454
+checkris.chenguangwang.3715557  checkris.pjfowler.2972075  checkris.rka.1932583       checkris.sharout.3527312
+checkris.chenguangwang.3715988  checkris.pjfowler.3018933  checkris.rka.1932789       checkris.sharout.3527480
+checkris.chenguangwang.3716183  checkris.pjfowler.3019276  checkris.rka.1932972       checkris.sharout.3527658
+checkris.chenguangwang.3716397  checkris.pjfowler.3019640  checkris.rka.1933146       checkris.sharout.3527953
+checkris.chenguangwang.3717031  checkris.pjfowler.3019834  checkris.rka.1933358       checkris.sharout.3528642
+checkris.chenguangwang.3721300  checkris.pjfowler.3021106  checkris.rka.1933535       checkris.sharout.3528929
+checkris.chenguangwang.3721467  checkris.pjfowler.3021501  checkris.rka.1933713       checkris.sharout.3529213
+checkris.chenguangwang.3721644  checkris.pjfowler.3021948  checkris.rka.1934248       checkris.sharout.3529385
+checkris.chenguangwang.3721819  checkris.pjfowler.3022820  checkris.rka.1934431       checkris.sharout.3529812
+checkris.chenguangwang.3721988  checkris.pjfowler.3023404  checkris.rka.1934876       checkris.sharout.3529978
+checkris.chenguangwang.3722155  checkris.pjfowler.3023773  checkris.rka.1935072       checkris.sharout.3530155
+checkris.chenguangwang.3722321  checkris.pjfowler.3023965  checkris.rka.1981149       checkris.sharout.3530455
+checkris.chenguangwang.3722492  checkris.pjfowler.3024311  checkris.rka.1981325       checkris.sharout.3576458
+checkris.chenguangwang.3722861  checkris.pjfowler.3070475  checkris.rka.1981531       checkris.sharout.3576837
+checkris.chenguangwang.3723027  checkris.pjfowler.3070659  checkris.rka.1981729       checkris.sharout.3577008
+checkris.chenguangwang.3723196  checkris.pjfowler.3071118  checkris.rka.1981916       checkris.sharout.3577175
+checkris.chenguangwang.3723386  checkris.pjfowler.3071407  checkris.rka.1982189       checkris.sharout.3577441
+checkris.chenguangwang.3763294  checkris.pjfowler.3071643  checkris.rka.1982382       checkris.sharout.3577836
+checkris.chenguangwang.3763489  checkris.pjfowler.3072011  checkris.rka.1982564       checkris.sharout.3578035
+checkris.chenguangwang.3763875  checkris.pjfowler.3072692  checkris.rka.1982781       checkris.sharout.3578318
+checkris.chenguangwang.3764355  checkris.pjfowler.3073112  checkris.rka.1982976       checkris.sharout.3578500
+checkris.chenguangwang.3764641  checkris.pjfowler.3073538  checkris.rka.1983152       checkris.sharout.3578680
+checkris.chenguangwang.3764964  checkris.pjfowler.3073886  checkris.rka.1983369       checkris.sharout.3578851
+checkris.chenguangwang.3765168  checkris.pjfowler.3076242  checkris.rka.2029391       checkris.sharout.3579036
+checkris.chenguangwang.3765359  checkris.pjfowler.3076765  checkris.rka.2029575       checkris.sharout.3624924
+checkris.chenguangwang.3769267  checkris.pjfowler.3123799  checkris.rka.2029784       checkris.sharout.3625237
+checkris.chenguangwang.3769434  checkris.pjfowler.3124164  checkris.rka.2029966       checkris.sharout.3625416
+checkris.chenguangwang.3769609  checkris.pjfowler.3124930  checkris.rka.2030142       checkris.sharout.3625602
+checkris.chenguangwang.3769780  checkris.pjfowler.3125639  checkris.rka.2030345       checkris.sharout.3625765
+checkris.chenguangwang.3769947  checkris.pjfowler.3126410  checkris.rka.2030528       checkris.sharout.3625940
+checkris.chenguangwang.3770123  checkris.pjfowler.3126791  checkris.rka.2030700       checkris.sharout.3626113
+checkris.chenguangwang.3770298  checkris.pjfowler.3127398  checkris.rka.2030911       checkris.sharout.3626285
+checkris.chenguangwang.3770470  checkris.pjfowler.3127670  checkris.rka.2031080       checkris.sharout.3626461
+checkris.chenguangwang.3770648  checkris.pjfowler.3127905  checkris.rka.2031266       checkris.sharout.3626626
+checkris.chenguangwang.3770814  checkris.pjfowler.3128151  checkris.rka.2031460       checkris.sharout.3626796
+checkris.chenguangwang.3770986  checkris.pjfowler.3128690  checkris.rka.2077486       checkris.sharout.3627096
+checkris.chenguangwang.3771180  checkris.pjfowler.3129351  checkris.rka.2077661       checkris.sharout.3673063
+checkris.chenguangwang.3817055  checkris.pjfowler.3176124  checkris.rka.2077888       checkris.sharout.3673590
+checkris.chenguangwang.3817224  checkris.pjfowler.3176924  checkris.rka.2078066       checkris.sharout.3673762
+checkris.chenguangwang.3817486  checkris.pjfowler.3177610  checkris.rka.2078242       checkris.sharout.3673929
+checkris.chenguangwang.3817658  checkris.pjfowler.3178127  checkris.rka.2078448       checkris.sharout.3674215
+checkris.chenguangwang.3817826  checkris.pjfowler.3178300  checkris.rka.2078626       checkris.sharout.3674395
+checkris.chenguangwang.3818013  checkris.pjfowler.3178605  checkris.rka.2078855       checkris.sharout.3674564
+checkris.chenguangwang.3818178  checkris.pjfowler.3179109  checkris.rka.2079063       checkris.sharout.3674734
+checkris.chenguangwang.3818459  checkris.pjfowler.3179462  checkris.rka.2079244       checkris.sharout.3674908
+checkris.chenguangwang.3818635  checkris.pjfowler.3179761  checkris.rka.2079382       checkris.sharout.3675076
+checkris.chenguangwang.3818761  checkris.pjfowler.3179983  checkris.rka.2079587       checkris.sharout.3675244
+checkris.chenguangwang.3818931  checkris.pjfowler.3180320  checkris.rka.2125610       checkris.sharout.3675432
+checkris.chenguangwang.3819132  checkris.pjfowler.3180633  checkris.rka.2125789       checkris.sharout.3721300
+checkris.chenguangwang.3865017  checkris.pjfowler.3226795  checkris.rka.2125996       checkris.sharout.3721467
+checkris.chenguangwang.3865346  checkris.pjfowler.3226983  checkris.rka.2126176       checkris.sharout.3721644
+checkris.chenguangwang.3865527  checkris.pjfowler.3227476  checkris.rka.2126351       checkris.sharout.3721819
+checkris.chenguangwang.3865692  checkris.pjfowler.3227788  checkris.rka.2126561       checkris.sharout.3721988
+checkris.chenguangwang.3865861  checkris.pjfowler.3228703  checkris.rka.2126736       checkris.sharout.3722155
+checkris.chenguangwang.3866035  checkris.pjfowler.3229208  checkris.rka.2126913       checkris.sharout.3722321
+checkris.chenguangwang.3866204  checkris.pjfowler.3229730  checkris.rka.2127115       checkris.sharout.3722492
+checkris.chenguangwang.3866375  checkris.pjfowler.3230553  checkris.rka.2127296       checkris.sharout.3722861
+checkris.pappu.3241234          checkris.pjfowler.3230976  checkris.rka.2127471       checkris.sharout.3723027
+checkris.pappu.3241440          checkris.pjfowler.3231277  checkris.rka.2127671       checkris.sharout.3723196
+checkris.pappu.3287291          checkris.pjfowler.3231731  checkris.rka.2173699       checkris.sharout.3723386
+checkris.pappu.3287449          checkris.pjfowler.3232141  checkris.rka.2173873       checkris.sharout.3769267
+checkris.pappu.3287662          checkris.pjfowler.3241234  checkris.rka.2174085       checkris.sharout.3769434
+checkris.pappu.3287833          checkris.pjfowler.3241440  checkris.rka.2174261       checkris.sharout.3769609
+checkris.pappu.3288000          checkris.pjfowler.3278265  checkris.rka.2174438       checkris.sharout.3769780
+checkris.pappu.3288174          checkris.pjfowler.3278494  checkris.rka.2174641       checkris.sharout.3769947
+checkris.pappu.3288340          checkris.pjfowler.3278744  checkris.rka.2174937       checkris.sharout.3770123
+checkris.pappu.3288511          checkris.pjfowler.3278950  checkris.rka.2175116       checkris.sharout.3770298
+checkris.pappu.3288690          checkris.pjfowler.3279155  checkris.rka.2175333       checkris.sharout.3770470
+checkris.pappu.3288917          checkris.pjfowler.3279817  checkris.rka.2175514       checkris.sharout.3770648
+checkris.pappu.3289425          checkris.pjfowler.3280497  checkris.rka.2175695       checkris.sharout.3770814
+checkris.pappu.3289609          checkris.pjfowler.3280713  checkris.rka.2175876       checkris.sharout.3770986
+checkris.pappu.3335463          checkris.pjfowler.3280949  checkris.rka.2221908       checkris.sharout.3771180
+checkris.pappu.3335632          checkris.pjfowler.3281169  checkris.rka.2222079       checkris.sharout.3817055
+checkris.pappu.3335807          checkris.pjfowler.3281361  checkris.rka.2222290       checkris.sharout.3817224
+checkris.pappu.3335973          checkris.pjfowler.3281585  checkris.rka.2222463       checkris.sharout.3817486
+checkris.pappu.3336141          checkris.pjfowler.3287291  checkris.rka.2222642       checkris.sharout.3817658
+checkris.pappu.3336314          checkris.pjfowler.3287449  checkris.rka.2222844       checkris.sharout.3817826
+checkris.pappu.3336834          checkris.pjfowler.3287662  checkris.rka.2223027       checkris.sharout.3818013
+checkris.pappu.3337003          checkris.pjfowler.3287833  checkris.rka.2223199       checkris.sharout.3818178
+checkris.pappu.3337189          checkris.pjfowler.3288000  checkris.rka.2223407       checkris.sharout.3818459
+checkris.pappu.3337357          checkris.pjfowler.3288174  checkris.rka.2223600       checkris.sharout.3818635
+checkris.pappu.3337528          checkris.pjfowler.3288340  checkris.rka.2223779       checkris.sharout.3818761
+checkris.pappu.3337724          checkris.pjfowler.3288511  checkris.rka.2223973       checkris.sharout.3818931
+checkris.pappu.3383572          checkris.pjfowler.3288690  checkris.rka.2270005       checkris.sharout.3819132
+checkris.pappu.3383744          checkris.pjfowler.3288917  checkris.rka.2270185       checkris.sharout.3865017
+checkris.pappu.3383921          checkris.pjfowler.3289425  checkris.rka.2270387       checkris.sharout.3865346
+checkris.pappu.3384089          checkris.pjfowler.3289609  checkris.rka.2270568       checkris.sharout.3865527
+checkris.pappu.3384256          checkris.pjfowler.3327925  checkris.rka.2270740       checkris.sharout.3865692
+checkris.pappu.3384540          checkris.pjfowler.3328242  checkris.rka.2270940       checkris.sharout.3865861
+checkris.pappu.3384707          checkris.pjfowler.3328526  checkris.rka.2271121       checkris.sharout.3866035
+checkris.pappu.3384889          checkris.pjfowler.3328710  checkris.rka.2271291       checkris.sharout.3866204
+checkris.pappu.3385063          checkris.pjfowler.3328912  checkris.rka.2271500       checkris.sharout.3866375
+checkris.pappu.3385230          checkris.pjfowler.3329240  checkris.rka.2271674       checkris.yvorobeychik.3241234
+checkris.pappu.3385400          checkris.pjfowler.3329799  checkris.rka.2271857       debug-cli.cnicholas.log
+checkris.pappu.3385585          checkris.pjfowler.3330114  checkris.rka.2272058       krb5cc_0
+checkris.pappu.3431435          checkris.pjfowler.3330331  checkris.rka.2318094       krb5cc_1007350
+checkris.pappu.3431609          checkris.pjfowler.3330516  checkris.rka.2318273       krb5cc_1010784
+checkris.pappu.3431790          checkris.pjfowler.3330895  checkris.rka.2318478       krb5cc_1012018
+checkris.pappu.3431958          checkris.pjfowler.3331249  checkris.rka.2318654       krb5cc_1012036
+checkris.pappu.3432132          checkris.pjfowler.3335463  checkris.rka.2318828       krb5cc_1013672
+checkris.pappu.3432307          checkris.pjfowler.3335632  checkris.rka.2319030       krb5cc_1017572
+checkris.pappu.3432474          checkris.pjfowler.3335807  checkris.rka.2319214       krb5cc_1018885
+checkris.pappu.3432645          checkris.pjfowler.3335973  checkris.rka.2319381       krb5cc_1027727
+checkris.pappu.3432831          checkris.pjfowler.3336141  checkris.rka.2319599       krb5cc_1845580
+checkris.pappu.3433000          checkris.pjfowler.3336314  checkris.rka.2319775       krb5cc_1847158
+checkris.pappu.3433395          checkris.pjfowler.3336834  checkris.rka.2319951       krb5cc_1866512
+checkris.pappu.3433582          checkris.pjfowler.3337003  checkris.rka.2320150       krb5cc_1893332
+checkris.pappu.3479436          checkris.pjfowler.3337189  checkris.rka.2366293       krb5cc_1914647
+checkris.pappu.3479605          checkris.pjfowler.3337357  checkris.rka.2366451       krb5cc_1916675
+checkris.pappu.3479780          checkris.pjfowler.3337528  checkris.rka.2366737       krb5cc_1919300
+checkris.pappu.3479952          checkris.pjfowler.3337724  checkris.rka.2366890       krb5cc_1921621
+checkris.pappu.3480241          checkris.pjfowler.3377547  checkris.rka.2367044       krb5cc_1938610
+checkris.pappu.3480414          checkris.pjfowler.3378220  checkris.rka.2367210       krb5cc_1940176
+checkris.pappu.3480582          checkris.pjfowler.3378699  checkris.rka.2367362       krb5cc_1941161
+checkris.pappu.3480753          checkris.pjfowler.3379488  checkris.rka.2367687       krb5cc_1942526
+checkris.pappu.3480934          checkris.pjfowler.3379832  checkris.rka.2367854       krb5cc_1965346
+checkris.pappu.3481099          checkris.pjfowler.3380592  checkris.rka.2368012       krb5cc_1965352
+checkris.pappu.3481265          checkris.pjfowler.3381209  checkris.rka.2368168       krb5cc_1965418
+checkris.pappu.3481454          checkris.pjfowler.3382262  checkris.rka.2368343       krb5cc_1965935
+checkris.pappu.3527312          checkris.pjfowler.3383050  checkris.rka.2414365       krb5cc_1966024
+checkris.pappu.3527480          checkris.pjfowler.3383572  checkris.rka.2414525       krb5cc_1966288
+checkris.pappu.3527658          checkris.pjfowler.3383744  checkris.rka.2414657       krb5cc_1970078
+checkris.pappu.3527953          checkris.pjfowler.3383921  checkris.rka.2414816       krb5cc_1987186
+checkris.pappu.3528642          checkris.pjfowler.3384089  checkris.rka.2414965       krb5cc_1989035
+checkris.pappu.3528929          checkris.pjfowler.3384104  checkris.rka.2415137       krb5cc_1989060
+checkris.pappu.3529213          checkris.pjfowler.3384256  checkris.rka.2415617       krb5cc_1990703
+checkris.pappu.3529385          checkris.pjfowler.3384540  checkris.rka.2415777       krb5cc_2005854
+checkris.pappu.3529812          checkris.pjfowler.3384616  checkris.rka.2415951       krb5cc_2013728
+checkris.pappu.3529978          checkris.pjfowler.3384707  checkris.rka.2416103       krb5cc_2014382
+checkris.pappu.3530155          checkris.pjfowler.3384889  checkris.rka.2416376       krb5cc_2014734
+checkris.pappu.3530455          checkris.pjfowler.3385063  checkris.rka.2416662       krb5cc_2016092
+checkris.pappu.3576458          checkris.pjfowler.3385230  checkris.rka.2462791       krb5cc_2021865
+checkris.pappu.3576837          checkris.pjfowler.3385267  checkris.rka.2463199       krb5cc_2025161
+checkris.pappu.3577008          checkris.pjfowler.3385400  checkris.rka.2463370       krb5cc_2027872
+checkris.pappu.3577175          checkris.pjfowler.338550   checkris.rka.2463628       krb5cc_2030673
+checkris.pappu.3577441          checkris.pjfowler.3385585  checkris.rka.2463780       krb5cc_2031172
+checkris.pappu.3577836          checkris.pjfowler.338777   checkris.rka.2463955       krb5cc_2032593
+checkris.pappu.3578035          checkris.pjfowler.338971   checkris.rka.2464119       krb5cc_2034249
+checkris.pappu.3578318          checkris.pjfowler.339144   checkris.rka.2464275       krb5cc_2035523
+checkris.pappu.3578500          checkris.pjfowler.339301   checkris.rka.2464431       krb5cc_2044607
+checkris.pappu.3578680          checkris.pjfowler.339496   checkris.rka.2464588       krb5cc_2046535
+checkris.pappu.3578851          checkris.pjfowler.339842   checkris.rka.2464774       krb5cc_2047706
+checkris.pappu.3579036          checkris.pjfowler.340007   checkris.rka.2464968       outdated_cache_ogb
+checkris.pappu.3624924          checkris.pjfowler.340194   checkris.rka.2511022       outdated_cache_outdated
+checkris.pappu.3625237          checkris.pjfowler.340362   checkris.rka.2511487       [0m[38;5;33mpython-languageserver-cancellation[0m
+checkris.pappu.3625416          checkris.pjfowler.340523   checkris.rka.2511695       [38;5;33msystemd-private-dbe6dc23f9194bde9d016c636900d908-chronyd.service-kpWlDf[0m
+checkris.pappu.3625602          checkris.pjfowler.340706   checkris.rka.2512034       [38;5;33msystemd-private-dbe6dc23f9194bde9d016c636900d908-nrpe.service-AMV03h[0m
+checkris.pappu.3625765          checkris.pjfowler.3431435  checkris.rka.2512207       [38;5;33msystemd-private-dbe6dc23f9194bde9d016c636900d908-rtkit-daemon.service-bKqmOi[0m
+checkris.pappu.3625940          checkris.pjfowler.3431577  checkris.rka.2512422       tmp-29992774zZ73u2zIWE6.json
+checkris.pappu.3626113          checkris.pjfowler.3431609  checkris.rka.2512651       tmp-2999277mujro17QpJxI.json
+checkris.pappu.3626285          checkris.pjfowler.3431790  checkris.rka.2512830       tmp-2999277QRpaQbUoNx8C.json
+checkris.pappu.3626461          checkris.pjfowler.3431958  checkris.rka.2513034       tmp-2999277uZ6pmYsSi5b7.json
+checkris.pappu.3626626          checkris.pjfowler.3432132  checkris.rka.2513220       tmp-3657883f53PHU1A3m7F.json
+checkris.pappu.3626796          checkris.pjfowler.3432245  checkris.rka.2513397       [38;5;33mtmp9blrg50t_kernels[0m
+checkris.pappu.3627096          checkris.pjfowler.3432307  checkris.rka.2513596       [38;5;33mtmpe21xdev6_kernels[0m
+checkris.pappu.3673063          checkris.pjfowler.3432474  checkris.rka.2559678       [38;5;33mvmware-root_1027-4290232097[0m
+checkris.pappu.3673590          checkris.pjfowler.3432645  checkris.rka.2559849       [38;5;33mvmware-root_1107-3988752721[0m
+checkris.pappu.3673762          checkris.pjfowler.3432720  checkris.rka.2560284       [38;5;33mvscode-typescript1847158[0m
+checkris.pappu.3673929          checkris.pjfowler.3432831  checkris.rka.2562523
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls /tmp/
+Display all 3078 possibilities? (y or n)^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls
+[0m[38;5;33mDesktop[0m    [38;5;33mDownloads[0m   [38;5;33mmail[0m        [38;5;33mMusic[0m     [38;5;33mPictures[0m     [38;5;33mprojects[0m  [38;5;33mTemplates[0m                           typescript
+[38;5;33mDocuments[0m  index.html  [48;5;232;38;5;9mminiconda3[0m  [38;5;33mondemand[0m  [38;5;33mplaypen_lsf[0m  [38;5;33mPublic[0m    tmp_NVIDIAGeForceGTXTITANBlack.out  [38;5;33mVideos[0m
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls
+[0m[38;5;33mDesktop[0m    [38;5;33mDownloads[0m   [38;5;33mmail[0m        [38;5;33mMusic[0m     [38;5;33mPictures[0m     [38;5;33mprojects[0m  [38;5;33mTemplates[0m                           typescript
+[38;5;33mDocuments[0m  index.html  [48;5;232;38;5;9mminiconda3[0m  [38;5;33mondemand[0m  [38;5;33mplaypen_lsf[0m  [38;5;33mPublic[0m    tmp_NVIDIAGeForceGTXTITANBlack.out  [38;5;33mVideos[0m
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls -la
+total 412
+drwx--x--x  30 jacobsn root           4096 Mar 22 16:37 [0m[38;5;33m.[0m
+drwxr-xr-x 791 root    root          65536 Mar 21 17:17 [38;5;33m..[0m
+drwx------   2 jacobsn Domain Users   4096 Nov  2 09:33 [38;5;33m.apptainer[0m
+-rw-------   1 jacobsn Domain Users  18864 Mar 22 16:37 .bash_history
+-rwx------   1 jacobsn root             18 Dec 13  2021 [38;5;40m.bash_logout[0m
+-rwx------   1 jacobsn root            193 Dec 13  2021 [38;5;40m.bash_profile[0m
+-rwx------   1 jacobsn root            754 Dec 14  2021 [38;5;40m.bashrc[0m
+drwx------  11 jacobsn Domain Users   4096 Oct 25 08:42 [38;5;33m.cache[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.conda[0m
+drwx------  11 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.config[0m
+drwx------   3 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.dbus[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mDesktop[0m
+drwxr-xr-x   3 jacobsn Domain Users   4096 Feb 21 12:05 [38;5;33mDocuments[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mDownloads[0m
+-rw-------   1 jacobsn Domain Users     16 Dec 13  2021 .esd_auth
+-rw-r--r--   1 jacobsn Domain Users    153 Oct 25 13:55 .gitconfig
+drwx------   3 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.gnupg[0m
+drwx------   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.gvfs[0m
+-rw-------   1 jacobsn Domain Users    318 Dec 14  2021 .ICEauthority
+-rw-r--r--   1 jacobsn Domain Users     15 Feb  8 08:51 index.html
+-rwx------   1 jacobsn root            172 Dec 13  2021 [38;5;40m.kshrc[0m
+-rw-------   1 jacobsn Domain Users    210 Nov  2 08:59 .lesshst
+drwxr-xr-x   3 jacobsn Domain Users   4096 Dec 13  2021 [38;5;33m.local[0m
+drwx------   2 jacobsn Domain Users  16384 Mar 22 16:38 [38;5;33m.lsbatch[0m
+drwx------   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mmail[0m
+drwxr-xr-x   3 jacobsn Domain Users   4096 Feb 21 12:03 [38;5;33m.matlab[0m
+lrwxrwxrwx   1 jacobsn Domain Users     33 Oct 25 09:46 [48;5;232;38;5;9mminiconda3[0m -> [01;05;37;41m/scratch/user/jacobsn/miniconda3/[0m
+drwx------   6 jacobsn root           4096 Dec 14  2021 [38;5;33m.mozilla[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mMusic[0m
+drwx------   3 jacobsn Domain Users   4096 Oct 25 09:04 [38;5;33m.nv[0m
+drwxr-xr-x   3 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mondemand[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mPictures[0m
+-rw-------   1 jacobsn Domain Users  25892 Dec 14  2021 .pinerc
+drwxr-----   3 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.pki[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mplaypen_lsf[0m
+drwxr-xr-x   3 jacobsn Domain Users   4096 Oct 25 07:49 [38;5;33mprojects[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mPublic[0m
+-rw-------   1 jacobsn Domain Users     60 Nov  2 10:31 .python_history
+drwx------   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.singularity[0m
+drwx------   2 jacobsn Domain Users   4096 Oct 25 07:49 [38;5;33m.ssh[0m
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mTemplates[0m
+-rw-r--r--   1 jacobsn Domain Users   1548 Oct 25 07:55 tmp_NVIDIAGeForceGTXTITANBlack.out
+-rw-r--r--   1 jacobsn Domain Users 114688 Mar 22 16:39 typescript
+drwxr-xr-x   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33mVideos[0m
+-rw-------   1 jacobsn Domain Users  14269 Feb 10 09:18 .viminfo
+drwx------   2 jacobsn Domain Users   4096 Dec 14  2021 [38;5;33m.vnc[0m
+-rw-------   1 jacobsn Domain Users    505 Jul 14  2022 .Xauthority
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls -la[Ka ls[K[K[K.[K ;[K.lsbatch/
+total 28
+drwx------  2 jacobsn Domain Users 16384 Mar 22 16:38 [0m[38;5;33m.[0m
+drwx--x--x 30 jacobsn root          4096 Mar 22 16:37 [38;5;33m..[0m
+-rwx------  1 jacobsn Domain Users   165 Mar 22 16:37 [38;5;40m1679521044.120274[0m
+-r--------  1 jacobsn Domain Users     0 Mar 22 16:37 1679521044.120274.hostAffinityFile
+-r--------  1 jacobsn Domain Users    22 Mar 22 16:37 1679521044.120274.hostfile
+-rw-r--r--  1 jacobsn Domain Users     0 Mar 22 16:37 1679521044.120274.out
+-rwx------  1 jacobsn Domain Users   164 Mar 22 16:38 [38;5;40m1679521086.120275[0m
+-r--------  1 jacobsn Domain Users     0 Mar 22 16:38 1679521086.120275.hostAffinityFile
+-r--------  1 jacobsn Domain Users    22 Mar 22 16:38 1679521086.120275.hostfile
+-rw-r--r--  1 jacobsn Domain Users    22 Mar 22 16:38 1679521086.120275.out
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ 120275^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ cat .lsbatch/1679521086.120275
+#! /bin/sh
+
+$LSB_TRAPSIGS
+$LSB_RCP1
+$LSB_RCP2
+$LSB_RCP3
+# LSBATCH: User input
+hostname
+ExitStat=$?
+wait
+# LSBATCH: End user input
+true
+exit `expr $? "|" $ExitStat`
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ cat .lsbatch/1679521086.120275.out 
+osprey.engr.wustl.edu
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ cat .lsbatch/1679521086.120275.out [K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pls -la .lsbatch/[K[K /tmp[Kbsub -m osprey hostname-Is /bin/bash[5Phostname
+Job <120276> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120277> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120278> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120279> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120280> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120281> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+^[[AJob <120282> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120283> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120284> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname
+Job <120285> is submitted to default queue <normal>.
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -m osprey hostname[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat .lsbatch/1679521086.120275.out [K.out [K[K[K[K[K[K^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls .lsbatch/
+[0m[38;5;40m1679521044.120274[0m                   [38;5;40m1679521218.120277[0m                   [38;5;40m1679521219.120280[0m                   [38;5;40m1679521220.120283[0m
+1679521044.120274.hostAffinityFile  1679521218.120277.hostAffinityFile  1679521219.120280.hostAffinityFile  1679521220.120283.hostAffinityFile
+1679521044.120274.hostfile          1679521218.120277.hostfile          1679521219.120280.hostfile          1679521220.120283.hostfile
+1679521044.120274.out               1679521218.120277.out               1679521219.120280.out               1679521220.120283.out
+[38;5;40m1679521086.120275[0m                   [38;5;40m1679521218.120278[0m                   [38;5;40m1679521219.120281[0m                   [38;5;40m1679521220.120284[0m
+1679521086.120275.hostAffinityFile  1679521218.120278.hostAffinityFile  1679521219.120281.hostAffinityFile  1679521220.120284.hostAffinityFile
+1679521086.120275.hostfile          1679521218.120278.hostfile          1679521219.120281.hostfile          1679521220.120284.hostfile
+1679521086.120275.out               1679521218.120278.out               1679521219.120281.out               1679521220.120284.out
+[38;5;40m1679521218.120276[0m                   [38;5;40m1679521219.120279[0m                   [38;5;40m1679521219.120282[0m                   [38;5;40m1679521220.120285[0m
+1679521218.120276.hostAffinityFile  1679521219.120279.hostAffinityFile  1679521219.120282.hostAffinityFile  1679521220.120285.hostAffinityFile
+1679521218.120276.hostfile          1679521219.120279.hostfile          1679521219.120282.hostfile          1679521220.120285.hostfile
+1679521218.120276.out               1679521219.120279.out               1679521219.120282.out               1679521220.120285.out
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ls .lsbatch/bsub -m osprey hostname^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ [4@(reverse-i-search)`':[CN': bhosts -gpu | grep NVIDIAA[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@V[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@I[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@D[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@failed reverse-i-search)`NVIDA[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ ^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ [4@(reverse-i-search)`':[CA': bhosts -gpu | grep NVIDIAA[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4': bhosts -gpu | grep NVIDIAA4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0': bsub -gpu "num=1:gmodel=NVIDIAA40" -q gpu-compute-debug -Is /bin/bash[7P[jacobsn@ssh8 ~]$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Job <120286> is submitted to queue <gpu-compute-debug>.
+<<Waiting for dispatch ...>>
+<<Starting on a40-2205.engr.wustl.edu>>
+]0;jacobsn@a40-2205:~[jacobsn@a40-2205 ~]$ nvidia-smi
+Wed Mar 22 16:43:22 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 520.61.05    Driver Version: 520.61.05    CUDA Version: 11.8     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A40          Off  | 00000000:13:00.0 Off |                    0 |
+|  0%   24C    P8    31W / 300W |      0MiB / 46068MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+]0;jacobsn@a40-2205:~[jacobsn@a40-2205 ~]$ df -h
+Filesystem                                     Size  Used Avail Use% Mounted on
+devtmpfs                                       378G     0  378G   0% /dev
+tmpfs                                          378G  524K  378G   1% /dev/shm
+tmpfs                                          378G  1.1G  377G   1% /run
+tmpfs                                          378G     0  378G   0% /sys/fs/cgroup
+/dev/sda2                                       64G   22G   43G  34% /
+/dev/sda1                                      2.0G  501M  1.6G  25% /boot
+/dev/sda5                                      373G  2.7G  370G   1% /tmp
+/dev/nvme0n1p1                                 3.5T   25G  3.5T   1% /scratch
+nfs.seas.wustl.edu:/seaslab/compute            750G  665G   86G  89% /project/compute
+nfs.seas.wustl.edu:/seaslab/home-compute        18T   13T  4.6T  74% /home/research
+tantra.engr.wustl.edu:/export1/project/tantra  8.2T  5.1T  3.2T  62% /project/tantra
+nfs.seas.wustl.edu:/seaslab/home-secure         18T   13T  4.6T  74% /home/home-secure
+nfs.seas.wustl.edu:/seaslab/engineering        750G  528G  223G  71% /project/engineering
+]0;jacobsn@a40-2205:~[jacobsn@a40-2205 ~]$ ls /str[Korage1/
+]0;jacobsn@a40-2205:~[jacobsn@a40-2205 ~]$ ls /storage1/jacobsn/
+[0m[38;5;33mActive[0m  [38;5;33mArchive[0m  [38;5;40mREADME.txt[0m
+]0;jacobsn@a40-2205:~[jacobsn@a40-2205 ~]$ ls /storage1/jacobsn/Active/
+[0m[38;5;33mconda[0m     [38;5;33mproject_crossviewmap[0m  [38;5;40mREADME.md[0m      [38;5;33muser_alexgreene[0m  [38;5;33muser_ben.j.mueller[0m  [38;5;33muser_e.keskin[0m  [38;5;33muser_lanier.m[0m  [38;5;33muser_vblack[0m
+[38;5;33mdatasets[0m  [38;5;33mprojects[0m              [38;5;33muser_aadeel[0m    [38;5;33muser_a.sabrio[0m    [38;5;33muser_black.h[0m        [38;5;33muser_h.nia[0m     [38;5;33musers[0m          [38;5;33muser_x.zhexiao[0m
+[38;5;33mMNIST[0m     [38;5;33mproj_smart[0m            [38;5;33muser_a.dhakal[0m  [38;5;33muser_atwollam[0m    [38;5;33muser_di.huang[0m       [38;5;33muser_k.subash[0m  [38;5;33muser_s.sastry[0m
+]0;jacobsn@a40-2205:~[jacobsn@a40-2205 ~]$ exit
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ bsub -gpu "num=1:gmodel=NVIDIAA40" -q gpu-compute-debug -Is /bin/bash^C
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ 
+]0;jacobsn@ssh8:~[jacobsn@ssh8 ~]$ exit
+
+Script done on 2023-03-22 16:45:41-05:00
